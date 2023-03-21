@@ -1,0 +1,1067 @@
+W, [2023-03-14T13:03:21.816240 #17784]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-03-14T13:03:23.897473 #17784]  INFO -- : [28ddd5d4-b645-48d1-9749-186ff6cd5fad] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:23 +0530
+I, [2023-03-14T13:03:23.900023 #17784]  INFO -- : [28ddd5d4-b645-48d1-9749-186ff6cd5fad] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:23.910827 #17784]  INFO -- : [28ddd5d4-b645-48d1-9749-186ff6cd5fad]   Rendered pages/home.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1546)
+I, [2023-03-14T13:03:23.912559 #17784]  INFO -- : [28ddd5d4-b645-48d1-9749-186ff6cd5fad]   Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2777)
+I, [2023-03-14T13:03:23.912785 #17784]  INFO -- : [28ddd5d4-b645-48d1-9749-186ff6cd5fad] Completed 200 OK in 12ms (Views: 9.4ms | Allocations: 4118)
+I, [2023-03-14T13:03:24.513212 #17784]  INFO -- : [7cb21ee8-293f-4513-a844-8c5e5efa7100] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:24 +0530
+I, [2023-03-14T13:03:24.513796 #17784]  INFO -- : [7cb21ee8-293f-4513-a844-8c5e5efa7100] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:24.514613 #17784]  INFO -- : [7cb21ee8-293f-4513-a844-8c5e5efa7100]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 274)
+I, [2023-03-14T13:03:24.515204 #17784]  INFO -- : [7cb21ee8-293f-4513-a844-8c5e5efa7100]   Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 779)
+I, [2023-03-14T13:03:24.515339 #17784]  INFO -- : [7cb21ee8-293f-4513-a844-8c5e5efa7100] Completed 200 OK in 1ms (Views: 1.3ms | Allocations: 1061)
+I, [2023-03-14T13:03:25.642759 #17784]  INFO -- : [b9c13017-98a9-4a2e-b5d5-051867cd1246] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:25 +0530
+I, [2023-03-14T13:03:25.643730 #17784]  INFO -- : [b9c13017-98a9-4a2e-b5d5-051867cd1246] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:25.644827 #17784]  INFO -- : [b9c13017-98a9-4a2e-b5d5-051867cd1246]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 242)
+I, [2023-03-14T13:03:25.646404 #17784]  INFO -- : [b9c13017-98a9-4a2e-b5d5-051867cd1246]   Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 747)
+I, [2023-03-14T13:03:25.646677 #17784]  INFO -- : [b9c13017-98a9-4a2e-b5d5-051867cd1246] Completed 200 OK in 3ms (Views: 2.5ms | Allocations: 1010)
+I, [2023-03-14T13:03:25.685190 #17784]  INFO -- : [ebdc780c-6643-4470-907c-f5d22ee0c63b] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:25 +0530
+F, [2023-03-14T13:03:25.686181 #17784] FATAL -- : [ebdc780c-6643-4470-907c-f5d22ee0c63b]   
+[ebdc780c-6643-4470-907c-f5d22ee0c63b] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[ebdc780c-6643-4470-907c-f5d22ee0c63b]   
+I, [2023-03-14T13:03:25.686891 #17784]  INFO -- : [716586bc-9d65-459e-aaa1-b5cdf95b3358] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:25 +0530
+F, [2023-03-14T13:03:25.687262 #17784] FATAL -- : [716586bc-9d65-459e-aaa1-b5cdf95b3358]   
+[716586bc-9d65-459e-aaa1-b5cdf95b3358] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[716586bc-9d65-459e-aaa1-b5cdf95b3358]   
+I, [2023-03-14T13:03:25.730655 #17784]  INFO -- : [a3b0b333-208c-4db4-bdb4-1b9e617dcd99] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:03:25 +0530
+F, [2023-03-14T13:03:25.730964 #17784] FATAL -- : [a3b0b333-208c-4db4-bdb4-1b9e617dcd99]   
+[a3b0b333-208c-4db4-bdb4-1b9e617dcd99] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[a3b0b333-208c-4db4-bdb4-1b9e617dcd99]   
+I, [2023-03-14T13:03:28.223441 #17784]  INFO -- : [e92fe497-7fb5-4ce6-80b6-552a640961dc] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:28 +0530
+I, [2023-03-14T13:03:28.223942 #17784]  INFO -- : [e92fe497-7fb5-4ce6-80b6-552a640961dc] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:28.224863 #17784]  INFO -- : [e92fe497-7fb5-4ce6-80b6-552a640961dc]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 248)
+I, [2023-03-14T13:03:28.225564 #17784]  INFO -- : [e92fe497-7fb5-4ce6-80b6-552a640961dc]   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 753)
+I, [2023-03-14T13:03:28.225698 #17784]  INFO -- : [e92fe497-7fb5-4ce6-80b6-552a640961dc] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1016)
+I, [2023-03-14T13:03:28.242900 #17784]  INFO -- : [96dcefd1-24ed-4ae1-af97-57af6e5d8f1d] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:28 +0530
+F, [2023-03-14T13:03:28.243404 #17784] FATAL -- : [96dcefd1-24ed-4ae1-af97-57af6e5d8f1d]   
+[96dcefd1-24ed-4ae1-af97-57af6e5d8f1d] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[96dcefd1-24ed-4ae1-af97-57af6e5d8f1d]   
+I, [2023-03-14T13:03:28.244116 #17784]  INFO -- : [f22b1b1e-43c6-4af1-ae79-c097a38c1c94] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:28 +0530
+F, [2023-03-14T13:03:28.244401 #17784] FATAL -- : [f22b1b1e-43c6-4af1-ae79-c097a38c1c94]   
+[f22b1b1e-43c6-4af1-ae79-c097a38c1c94] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[f22b1b1e-43c6-4af1-ae79-c097a38c1c94]   
+I, [2023-03-14T13:03:28.280925 #17784]  INFO -- : [81e62ed4-cba3-4c17-aa72-aa702c82fdf1] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:03:28 +0530
+F, [2023-03-14T13:03:28.281579 #17784] FATAL -- : [81e62ed4-cba3-4c17-aa72-aa702c82fdf1]   
+[81e62ed4-cba3-4c17-aa72-aa702c82fdf1] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[81e62ed4-cba3-4c17-aa72-aa702c82fdf1]   
+I, [2023-03-14T13:03:28.864402 #17784]  INFO -- : [89b55cc7-f200-4fe1-bca3-36223f239e65] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:28 +0530
+I, [2023-03-14T13:03:28.865170 #17784]  INFO -- : [89b55cc7-f200-4fe1-bca3-36223f239e65] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:28.866079 #17784]  INFO -- : [89b55cc7-f200-4fe1-bca3-36223f239e65]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 239)
+I, [2023-03-14T13:03:28.866872 #17784]  INFO -- : [89b55cc7-f200-4fe1-bca3-36223f239e65]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 743)
+I, [2023-03-14T13:03:28.867239 #17784]  INFO -- : [89b55cc7-f200-4fe1-bca3-36223f239e65] Completed 200 OK in 2ms (Views: 1.8ms | Allocations: 1000)
+I, [2023-03-14T13:03:28.887249 #17784]  INFO -- : [a0bdfcc0-bfbc-43ae-9362-1d0ab4d4d8c2] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:28 +0530
+F, [2023-03-14T13:03:28.887743 #17784] FATAL -- : [a0bdfcc0-bfbc-43ae-9362-1d0ab4d4d8c2]   
+[a0bdfcc0-bfbc-43ae-9362-1d0ab4d4d8c2] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[a0bdfcc0-bfbc-43ae-9362-1d0ab4d4d8c2]   
+I, [2023-03-14T13:03:28.888487 #17784]  INFO -- : [5b68cbf7-41ae-449b-beeb-ba7416bc1564] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:28 +0530
+F, [2023-03-14T13:03:28.888818 #17784] FATAL -- : [5b68cbf7-41ae-449b-beeb-ba7416bc1564]   
+[5b68cbf7-41ae-449b-beeb-ba7416bc1564] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[5b68cbf7-41ae-449b-beeb-ba7416bc1564]   
+I, [2023-03-14T13:03:28.923499 #17784]  INFO -- : [74adeae5-3c19-4015-a8c1-cea380757ed3] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:03:28 +0530
+F, [2023-03-14T13:03:28.923977 #17784] FATAL -- : [74adeae5-3c19-4015-a8c1-cea380757ed3]   
+[74adeae5-3c19-4015-a8c1-cea380757ed3] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[74adeae5-3c19-4015-a8c1-cea380757ed3]   
+I, [2023-03-14T13:03:29.153594 #17784]  INFO -- : [7ebc0c58-2c5c-4fe8-b75a-f9da83706e64] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+I, [2023-03-14T13:03:29.154070 #17784]  INFO -- : [7ebc0c58-2c5c-4fe8-b75a-f9da83706e64] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:29.154811 #17784]  INFO -- : [7ebc0c58-2c5c-4fe8-b75a-f9da83706e64]   Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 239)
+I, [2023-03-14T13:03:29.155346 #17784]  INFO -- : [7ebc0c58-2c5c-4fe8-b75a-f9da83706e64]   Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 744)
+I, [2023-03-14T13:03:29.155463 #17784]  INFO -- : [7ebc0c58-2c5c-4fe8-b75a-f9da83706e64] Completed 200 OK in 1ms (Views: 1.2ms | Allocations: 1007)
+I, [2023-03-14T13:03:29.177075 #17784]  INFO -- : [9b5d2b9b-f950-4e6b-992f-9dbc59588752] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+F, [2023-03-14T13:03:29.177575 #17784] FATAL -- : [9b5d2b9b-f950-4e6b-992f-9dbc59588752]   
+[9b5d2b9b-f950-4e6b-992f-9dbc59588752] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[9b5d2b9b-f950-4e6b-992f-9dbc59588752]   
+I, [2023-03-14T13:03:29.178838 #17784]  INFO -- : [63d6b6e1-4d36-4d46-a703-e58b69356760] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+F, [2023-03-14T13:03:29.179275 #17784] FATAL -- : [63d6b6e1-4d36-4d46-a703-e58b69356760]   
+[63d6b6e1-4d36-4d46-a703-e58b69356760] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[63d6b6e1-4d36-4d46-a703-e58b69356760]   
+I, [2023-03-14T13:03:29.220272 #17784]  INFO -- : [075de563-5379-4b7c-b2f1-252352c1d55c] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+F, [2023-03-14T13:03:29.220703 #17784] FATAL -- : [075de563-5379-4b7c-b2f1-252352c1d55c]   
+[075de563-5379-4b7c-b2f1-252352c1d55c] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[075de563-5379-4b7c-b2f1-252352c1d55c]   
+I, [2023-03-14T13:03:29.484086 #17784]  INFO -- : [b1aea398-a2b8-4553-a0d5-d5814e2387a8] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+I, [2023-03-14T13:03:29.484670 #17784]  INFO -- : [b1aea398-a2b8-4553-a0d5-d5814e2387a8] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:29.486295 #17784]  INFO -- : [b1aea398-a2b8-4553-a0d5-d5814e2387a8]   Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 245)
+I, [2023-03-14T13:03:29.487146 #17784]  INFO -- : [b1aea398-a2b8-4553-a0d5-d5814e2387a8]   Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 749)
+I, [2023-03-14T13:03:29.487323 #17784]  INFO -- : [b1aea398-a2b8-4553-a0d5-d5814e2387a8] Completed 200 OK in 3ms (Views: 2.2ms | Allocations: 1006)
+I, [2023-03-14T13:03:29.508179 #17784]  INFO -- : [f161d813-f8e9-4765-9a4f-fe12ace728cb] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+F, [2023-03-14T13:03:29.508626 #17784] FATAL -- : [f161d813-f8e9-4765-9a4f-fe12ace728cb]   
+[f161d813-f8e9-4765-9a4f-fe12ace728cb] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[f161d813-f8e9-4765-9a4f-fe12ace728cb]   
+I, [2023-03-14T13:03:29.509438 #17784]  INFO -- : [3258bb68-478f-4ca2-b273-72dabbb2ca07] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+F, [2023-03-14T13:03:29.509947 #17784] FATAL -- : [3258bb68-478f-4ca2-b273-72dabbb2ca07]   
+[3258bb68-478f-4ca2-b273-72dabbb2ca07] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[3258bb68-478f-4ca2-b273-72dabbb2ca07]   
+I, [2023-03-14T13:03:29.552109 #17784]  INFO -- : [b37ab7a1-c7fd-42f6-8fe3-b4b069aa37fe] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+F, [2023-03-14T13:03:29.552549 #17784] FATAL -- : [b37ab7a1-c7fd-42f6-8fe3-b4b069aa37fe]   
+[b37ab7a1-c7fd-42f6-8fe3-b4b069aa37fe] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[b37ab7a1-c7fd-42f6-8fe3-b4b069aa37fe]   
+I, [2023-03-14T13:03:29.773444 #17784]  INFO -- : [784403fa-1e68-44ef-9e9e-c3a8acda7856] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+I, [2023-03-14T13:03:29.773989 #17784]  INFO -- : [784403fa-1e68-44ef-9e9e-c3a8acda7856] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:29.775053 #17784]  INFO -- : [784403fa-1e68-44ef-9e9e-c3a8acda7856]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 239)
+I, [2023-03-14T13:03:29.775748 #17784]  INFO -- : [784403fa-1e68-44ef-9e9e-c3a8acda7856]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 743)
+I, [2023-03-14T13:03:29.775897 #17784]  INFO -- : [784403fa-1e68-44ef-9e9e-c3a8acda7856] Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 1000)
+I, [2023-03-14T13:03:29.801525 #17784]  INFO -- : [53fa7ff3-e82a-4862-a31a-32324ddd20cf] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+F, [2023-03-14T13:03:29.802130 #17784] FATAL -- : [53fa7ff3-e82a-4862-a31a-32324ddd20cf]   
+[53fa7ff3-e82a-4862-a31a-32324ddd20cf] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[53fa7ff3-e82a-4862-a31a-32324ddd20cf]   
+I, [2023-03-14T13:03:29.802780 #17784]  INFO -- : [410e8926-d9b9-43da-b77b-c41da4ad08d9] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+F, [2023-03-14T13:03:29.803197 #17784] FATAL -- : [410e8926-d9b9-43da-b77b-c41da4ad08d9]   
+[410e8926-d9b9-43da-b77b-c41da4ad08d9] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[410e8926-d9b9-43da-b77b-c41da4ad08d9]   
+I, [2023-03-14T13:03:29.839543 #17784]  INFO -- : [278fa707-010b-485c-af2c-712515d16af5] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:03:29 +0530
+F, [2023-03-14T13:03:29.839956 #17784] FATAL -- : [278fa707-010b-485c-af2c-712515d16af5]   
+[278fa707-010b-485c-af2c-712515d16af5] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[278fa707-010b-485c-af2c-712515d16af5]   
+I, [2023-03-14T13:03:30.035443 #17784]  INFO -- : [a78a7149-2ab8-4195-bb9f-3715fd91aab7] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:30 +0530
+I, [2023-03-14T13:03:30.035940 #17784]  INFO -- : [a78a7149-2ab8-4195-bb9f-3715fd91aab7] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:30.037001 #17784]  INFO -- : [a78a7149-2ab8-4195-bb9f-3715fd91aab7]   Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 227)
+I, [2023-03-14T13:03:30.037545 #17784]  INFO -- : [a78a7149-2ab8-4195-bb9f-3715fd91aab7]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 731)
+I, [2023-03-14T13:03:30.037666 #17784]  INFO -- : [a78a7149-2ab8-4195-bb9f-3715fd91aab7] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 988)
+I, [2023-03-14T13:03:30.055701 #17784]  INFO -- : [4e8db4e9-7f06-4743-a5f9-aae8fc622c3e] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:30 +0530
+F, [2023-03-14T13:03:30.056327 #17784] FATAL -- : [4e8db4e9-7f06-4743-a5f9-aae8fc622c3e]   
+[4e8db4e9-7f06-4743-a5f9-aae8fc622c3e] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[4e8db4e9-7f06-4743-a5f9-aae8fc622c3e]   
+I, [2023-03-14T13:03:30.056730 #17784]  INFO -- : [426a2a35-5e21-4c05-b6bf-b67ebbeb8139] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:30 +0530
+F, [2023-03-14T13:03:30.057220 #17784] FATAL -- : [426a2a35-5e21-4c05-b6bf-b67ebbeb8139]   
+[426a2a35-5e21-4c05-b6bf-b67ebbeb8139] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[426a2a35-5e21-4c05-b6bf-b67ebbeb8139]   
+I, [2023-03-14T13:03:30.095595 #17784]  INFO -- : [0b509338-7511-4dde-8b44-e5b91bfc0973] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:03:30 +0530
+F, [2023-03-14T13:03:30.096029 #17784] FATAL -- : [0b509338-7511-4dde-8b44-e5b91bfc0973]   
+[0b509338-7511-4dde-8b44-e5b91bfc0973] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[0b509338-7511-4dde-8b44-e5b91bfc0973]   
+W, [2023-03-14T13:03:46.786385 #17899]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-03-14T13:03:53.723538 #18076]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-03-14T13:03:57.735600 #18076]  INFO -- : [de661c6e-8070-49aa-b093-d259558c8eff] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:57 +0530
+I, [2023-03-14T13:03:57.736668 #18076]  INFO -- : [de661c6e-8070-49aa-b093-d259558c8eff] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:57.740211 #18076]  INFO -- : [de661c6e-8070-49aa-b093-d259558c8eff]   Rendered pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 892)
+I, [2023-03-14T13:03:57.741403 #18076]  INFO -- : [de661c6e-8070-49aa-b093-d259558c8eff]   Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2089)
+I, [2023-03-14T13:03:57.741594 #18076]  INFO -- : [de661c6e-8070-49aa-b093-d259558c8eff] Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 3429)
+I, [2023-03-14T13:03:57.760201 #18076]  INFO -- : [1c152768-957d-4a62-b952-e7bc10d63f73] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:03:57 +0530
+F, [2023-03-14T13:03:57.760849 #18076] FATAL -- : [1c152768-957d-4a62-b952-e7bc10d63f73]   
+[1c152768-957d-4a62-b952-e7bc10d63f73] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[1c152768-957d-4a62-b952-e7bc10d63f73]   
+I, [2023-03-14T13:03:57.761505 #18076]  INFO -- : [26ba45c7-5749-4bd6-8e6c-cba3ccdc7302] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:57 +0530
+F, [2023-03-14T13:03:57.761855 #18076] FATAL -- : [26ba45c7-5749-4bd6-8e6c-cba3ccdc7302]   
+[26ba45c7-5749-4bd6-8e6c-cba3ccdc7302] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[26ba45c7-5749-4bd6-8e6c-cba3ccdc7302]   
+I, [2023-03-14T13:03:57.778528 #18076]  INFO -- : [39fbb767-b04e-4d09-a8f6-737467c8c831] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:57 +0530
+F, [2023-03-14T13:03:57.779194 #18076] FATAL -- : [39fbb767-b04e-4d09-a8f6-737467c8c831]   
+[39fbb767-b04e-4d09-a8f6-737467c8c831] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[39fbb767-b04e-4d09-a8f6-737467c8c831]   
+I, [2023-03-14T13:03:58.544279 #18076]  INFO -- : [89cea8e2-1ca1-49b1-95da-43cec8e12636] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:58 +0530
+I, [2023-03-14T13:03:58.544802 #18076]  INFO -- : [89cea8e2-1ca1-49b1-95da-43cec8e12636] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:58.545702 #18076]  INFO -- : [89cea8e2-1ca1-49b1-95da-43cec8e12636]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 242)
+I, [2023-03-14T13:03:58.546384 #18076]  INFO -- : [89cea8e2-1ca1-49b1-95da-43cec8e12636]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 747)
+I, [2023-03-14T13:03:58.546547 #18076]  INFO -- : [89cea8e2-1ca1-49b1-95da-43cec8e12636] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1029)
+I, [2023-03-14T13:03:58.565215 #18076]  INFO -- : [746a707f-b1e1-4b6b-991e-18c62fdd2898] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:03:58 +0530
+F, [2023-03-14T13:03:58.565698 #18076] FATAL -- : [746a707f-b1e1-4b6b-991e-18c62fdd2898]   
+[746a707f-b1e1-4b6b-991e-18c62fdd2898] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[746a707f-b1e1-4b6b-991e-18c62fdd2898]   
+I, [2023-03-14T13:03:58.566205 #18076]  INFO -- : [345bf7f8-7c4c-4ccc-b4a3-b6d3efc25234] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:58 +0530
+F, [2023-03-14T13:03:58.566458 #18076] FATAL -- : [345bf7f8-7c4c-4ccc-b4a3-b6d3efc25234]   
+[345bf7f8-7c4c-4ccc-b4a3-b6d3efc25234] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[345bf7f8-7c4c-4ccc-b4a3-b6d3efc25234]   
+I, [2023-03-14T13:03:58.581353 #18076]  INFO -- : [2d4582cd-b779-465f-a5df-8e9162eb87c8] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:58 +0530
+F, [2023-03-14T13:03:58.581815 #18076] FATAL -- : [2d4582cd-b779-465f-a5df-8e9162eb87c8]   
+[2d4582cd-b779-465f-a5df-8e9162eb87c8] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[2d4582cd-b779-465f-a5df-8e9162eb87c8]   
+I, [2023-03-14T13:03:59.074780 #18076]  INFO -- : [ebb7266b-9d10-4c08-9ac3-04d96f469696] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:59 +0530
+I, [2023-03-14T13:03:59.075336 #18076]  INFO -- : [ebb7266b-9d10-4c08-9ac3-04d96f469696] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:59.076357 #18076]  INFO -- : [ebb7266b-9d10-4c08-9ac3-04d96f469696]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 248)
+I, [2023-03-14T13:03:59.077138 #18076]  INFO -- : [ebb7266b-9d10-4c08-9ac3-04d96f469696]   Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 753)
+I, [2023-03-14T13:03:59.077298 #18076]  INFO -- : [ebb7266b-9d10-4c08-9ac3-04d96f469696] Completed 200 OK in 2ms (Views: 1.7ms | Allocations: 1016)
+I, [2023-03-14T13:03:59.094687 #18076]  INFO -- : [7567375e-c026-43c4-8ead-626c8b7430e1] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:03:59 +0530
+F, [2023-03-14T13:03:59.095127 #18076] FATAL -- : [7567375e-c026-43c4-8ead-626c8b7430e1]   
+[7567375e-c026-43c4-8ead-626c8b7430e1] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[7567375e-c026-43c4-8ead-626c8b7430e1]   
+I, [2023-03-14T13:03:59.095749 #18076]  INFO -- : [af501967-2e86-45ca-87f1-efa55ccb2035] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:59 +0530
+F, [2023-03-14T13:03:59.096035 #18076] FATAL -- : [af501967-2e86-45ca-87f1-efa55ccb2035]   
+[af501967-2e86-45ca-87f1-efa55ccb2035] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[af501967-2e86-45ca-87f1-efa55ccb2035]   
+I, [2023-03-14T13:03:59.110450 #18076]  INFO -- : [796e2bb2-4de5-4f0f-9c32-faa19a23992c] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:59 +0530
+F, [2023-03-14T13:03:59.110943 #18076] FATAL -- : [796e2bb2-4de5-4f0f-9c32-faa19a23992c]   
+[796e2bb2-4de5-4f0f-9c32-faa19a23992c] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[796e2bb2-4de5-4f0f-9c32-faa19a23992c]   
+I, [2023-03-14T13:03:59.365089 #18076]  INFO -- : [b550c7f1-b7d7-4831-9f73-4e3a8aba6e7e] Started GET "/" for 127.0.0.1 at 2023-03-14 13:03:59 +0530
+I, [2023-03-14T13:03:59.365596 #18076]  INFO -- : [b550c7f1-b7d7-4831-9f73-4e3a8aba6e7e] Processing by PagesController#home as HTML
+I, [2023-03-14T13:03:59.366561 #18076]  INFO -- : [b550c7f1-b7d7-4831-9f73-4e3a8aba6e7e]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 242)
+I, [2023-03-14T13:03:59.367202 #18076]  INFO -- : [b550c7f1-b7d7-4831-9f73-4e3a8aba6e7e]   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 747)
+I, [2023-03-14T13:03:59.367374 #18076]  INFO -- : [b550c7f1-b7d7-4831-9f73-4e3a8aba6e7e] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1008)
+I, [2023-03-14T13:03:59.384269 #18076]  INFO -- : [99f188c2-1ca2-4c98-bceb-0c478889a9d5] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:03:59 +0530
+F, [2023-03-14T13:03:59.384857 #18076] FATAL -- : [99f188c2-1ca2-4c98-bceb-0c478889a9d5]   
+[99f188c2-1ca2-4c98-bceb-0c478889a9d5] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[99f188c2-1ca2-4c98-bceb-0c478889a9d5]   
+I, [2023-03-14T13:03:59.385402 #18076]  INFO -- : [0af3d1a0-5eb2-453b-96ab-ea2920c6a3b2] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:03:59 +0530
+F, [2023-03-14T13:03:59.385696 #18076] FATAL -- : [0af3d1a0-5eb2-453b-96ab-ea2920c6a3b2]   
+[0af3d1a0-5eb2-453b-96ab-ea2920c6a3b2] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[0af3d1a0-5eb2-453b-96ab-ea2920c6a3b2]   
+I, [2023-03-14T13:03:59.397477 #18076]  INFO -- : [60c1148c-1981-44b5-a68a-6c3225052efa] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:03:59 +0530
+F, [2023-03-14T13:03:59.398004 #18076] FATAL -- : [60c1148c-1981-44b5-a68a-6c3225052efa]   
+[60c1148c-1981-44b5-a68a-6c3225052efa] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[60c1148c-1981-44b5-a68a-6c3225052efa]   
+I, [2023-03-14T13:04:00.148029 #18076]  INFO -- : [63a6251e-e139-4760-af26-e743d8527323] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+I, [2023-03-14T13:04:00.148715 #18076]  INFO -- : [63a6251e-e139-4760-af26-e743d8527323] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:00.149532 #18076]  INFO -- : [63a6251e-e139-4760-af26-e743d8527323]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 242)
+I, [2023-03-14T13:04:00.150292 #18076]  INFO -- : [63a6251e-e139-4760-af26-e743d8527323]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 746)
+I, [2023-03-14T13:04:00.150468 #18076]  INFO -- : [63a6251e-e139-4760-af26-e743d8527323] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1003)
+I, [2023-03-14T13:04:00.170257 #18076]  INFO -- : [0a2e6c0d-c30f-46d1-8dd7-818a0791410e] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+F, [2023-03-14T13:04:00.171070 #18076] FATAL -- : [0a2e6c0d-c30f-46d1-8dd7-818a0791410e]   
+[0a2e6c0d-c30f-46d1-8dd7-818a0791410e] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[0a2e6c0d-c30f-46d1-8dd7-818a0791410e]   
+I, [2023-03-14T13:04:00.171428 #18076]  INFO -- : [f98a994a-c48a-4663-b76e-e9c54d3ec897] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+F, [2023-03-14T13:04:00.172050 #18076] FATAL -- : [f98a994a-c48a-4663-b76e-e9c54d3ec897]   
+[f98a994a-c48a-4663-b76e-e9c54d3ec897] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[f98a994a-c48a-4663-b76e-e9c54d3ec897]   
+I, [2023-03-14T13:04:00.180835 #18076]  INFO -- : [166610ff-da86-4b4a-b0dc-fdca0c3e101b] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+F, [2023-03-14T13:04:00.181274 #18076] FATAL -- : [166610ff-da86-4b4a-b0dc-fdca0c3e101b]   
+[166610ff-da86-4b4a-b0dc-fdca0c3e101b] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[166610ff-da86-4b4a-b0dc-fdca0c3e101b]   
+I, [2023-03-14T13:04:00.206867 #18076]  INFO -- : [283a6a87-9bbf-4039-89df-949b221dcca2] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+F, [2023-03-14T13:04:00.207371 #18076] FATAL -- : [283a6a87-9bbf-4039-89df-949b221dcca2]   
+[283a6a87-9bbf-4039-89df-949b221dcca2] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[283a6a87-9bbf-4039-89df-949b221dcca2]   
+I, [2023-03-14T13:04:00.645485 #18076]  INFO -- : [f918e5b0-db61-4674-95f0-b103113741a0] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+I, [2023-03-14T13:04:00.645983 #18076]  INFO -- : [f918e5b0-db61-4674-95f0-b103113741a0] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:00.647054 #18076]  INFO -- : [f918e5b0-db61-4674-95f0-b103113741a0]   Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 257)
+I, [2023-03-14T13:04:00.647571 #18076]  INFO -- : [f918e5b0-db61-4674-95f0-b103113741a0]   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 761)
+I, [2023-03-14T13:04:00.647682 #18076]  INFO -- : [f918e5b0-db61-4674-95f0-b103113741a0] Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 1018)
+I, [2023-03-14T13:04:00.665828 #18076]  INFO -- : [a14fcad2-6559-4f58-a822-ce524f9b2552] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+F, [2023-03-14T13:04:00.666657 #18076] FATAL -- : [a14fcad2-6559-4f58-a822-ce524f9b2552]   
+[a14fcad2-6559-4f58-a822-ce524f9b2552] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[a14fcad2-6559-4f58-a822-ce524f9b2552]   
+I, [2023-03-14T13:04:00.667179 #18076]  INFO -- : [2910c717-d31d-4281-9ccc-bb41f3af920f] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+F, [2023-03-14T13:04:00.667411 #18076] FATAL -- : [2910c717-d31d-4281-9ccc-bb41f3af920f]   
+[2910c717-d31d-4281-9ccc-bb41f3af920f] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[2910c717-d31d-4281-9ccc-bb41f3af920f]   
+I, [2023-03-14T13:04:00.677136 #18076]  INFO -- : [da74dc3c-802b-40c9-b290-bdc1c4946cb8] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+F, [2023-03-14T13:04:00.677501 #18076] FATAL -- : [da74dc3c-802b-40c9-b290-bdc1c4946cb8]   
+[da74dc3c-802b-40c9-b290-bdc1c4946cb8] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[da74dc3c-802b-40c9-b290-bdc1c4946cb8]   
+I, [2023-03-14T13:04:00.705658 #18076]  INFO -- : [f7c9799f-791e-4d0f-b9d3-84f1253aeb7e] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+F, [2023-03-14T13:04:00.706169 #18076] FATAL -- : [f7c9799f-791e-4d0f-b9d3-84f1253aeb7e]   
+[f7c9799f-791e-4d0f-b9d3-84f1253aeb7e] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[f7c9799f-791e-4d0f-b9d3-84f1253aeb7e]   
+I, [2023-03-14T13:04:00.986798 #18076]  INFO -- : [88475cc0-71f7-4603-afa2-7758dc1d7046] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:00 +0530
+I, [2023-03-14T13:04:00.987443 #18076]  INFO -- : [88475cc0-71f7-4603-afa2-7758dc1d7046] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:00.988187 #18076]  INFO -- : [88475cc0-71f7-4603-afa2-7758dc1d7046]   Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 254)
+I, [2023-03-14T13:04:00.988919 #18076]  INFO -- : [88475cc0-71f7-4603-afa2-7758dc1d7046]   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 759)
+I, [2023-03-14T13:04:00.989051 #18076]  INFO -- : [88475cc0-71f7-4603-afa2-7758dc1d7046] Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 1020)
+I, [2023-03-14T13:04:01.006446 #18076]  INFO -- : [97a9143e-5918-49f9-9e7a-132754b30a72] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.006927 #18076] FATAL -- : [97a9143e-5918-49f9-9e7a-132754b30a72]   
+[97a9143e-5918-49f9-9e7a-132754b30a72] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[97a9143e-5918-49f9-9e7a-132754b30a72]   
+I, [2023-03-14T13:04:01.007611 #18076]  INFO -- : [eb8d323b-adf2-41ae-8f31-98f37a7e820d] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.008214 #18076] FATAL -- : [eb8d323b-adf2-41ae-8f31-98f37a7e820d]   
+[eb8d323b-adf2-41ae-8f31-98f37a7e820d] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[eb8d323b-adf2-41ae-8f31-98f37a7e820d]   
+I, [2023-03-14T13:04:01.017782 #18076]  INFO -- : [6666e41c-f435-4858-a529-9f5ad6ae8991] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.018462 #18076] FATAL -- : [6666e41c-f435-4858-a529-9f5ad6ae8991]   
+[6666e41c-f435-4858-a529-9f5ad6ae8991] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[6666e41c-f435-4858-a529-9f5ad6ae8991]   
+I, [2023-03-14T13:04:01.046236 #18076]  INFO -- : [915e99c9-5009-42df-a671-f3c8fc957920] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.046775 #18076] FATAL -- : [915e99c9-5009-42df-a671-f3c8fc957920]   
+[915e99c9-5009-42df-a671-f3c8fc957920] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[915e99c9-5009-42df-a671-f3c8fc957920]   
+I, [2023-03-14T13:04:01.294805 #18076]  INFO -- : [d3a0383a-6b97-4cd2-9f73-57edbaefc00f] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+I, [2023-03-14T13:04:01.295352 #18076]  INFO -- : [d3a0383a-6b97-4cd2-9f73-57edbaefc00f] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:01.296365 #18076]  INFO -- : [d3a0383a-6b97-4cd2-9f73-57edbaefc00f]   Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 260)
+I, [2023-03-14T13:04:01.297163 #18076]  INFO -- : [d3a0383a-6b97-4cd2-9f73-57edbaefc00f]   Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 764)
+I, [2023-03-14T13:04:01.297337 #18076]  INFO -- : [d3a0383a-6b97-4cd2-9f73-57edbaefc00f] Completed 200 OK in 2ms (Views: 1.7ms | Allocations: 1021)
+I, [2023-03-14T13:04:01.315709 #18076]  INFO -- : [be569251-d603-4361-80dc-5cfe89b4ea37] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.316118 #18076] FATAL -- : [be569251-d603-4361-80dc-5cfe89b4ea37]   
+[be569251-d603-4361-80dc-5cfe89b4ea37] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[be569251-d603-4361-80dc-5cfe89b4ea37]   
+I, [2023-03-14T13:04:01.316583 #18076]  INFO -- : [4578b50a-40b1-4fa1-9585-0e91f39cc027] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.316831 #18076] FATAL -- : [4578b50a-40b1-4fa1-9585-0e91f39cc027]   
+[4578b50a-40b1-4fa1-9585-0e91f39cc027] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[4578b50a-40b1-4fa1-9585-0e91f39cc027]   
+I, [2023-03-14T13:04:01.325511 #18076]  INFO -- : [243da06e-0f8b-4793-9a62-1444d0cc03b5] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.326493 #18076] FATAL -- : [243da06e-0f8b-4793-9a62-1444d0cc03b5]   
+[243da06e-0f8b-4793-9a62-1444d0cc03b5] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[243da06e-0f8b-4793-9a62-1444d0cc03b5]   
+I, [2023-03-14T13:04:01.359847 #18076]  INFO -- : [a13cd278-5b79-4d73-bbe8-9ddb70bf4893] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.360281 #18076] FATAL -- : [a13cd278-5b79-4d73-bbe8-9ddb70bf4893]   
+[a13cd278-5b79-4d73-bbe8-9ddb70bf4893] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[a13cd278-5b79-4d73-bbe8-9ddb70bf4893]   
+I, [2023-03-14T13:04:01.555314 #18076]  INFO -- : [549301f3-6a28-4a64-8c4b-d4d0543f702f] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+I, [2023-03-14T13:04:01.555797 #18076]  INFO -- : [549301f3-6a28-4a64-8c4b-d4d0543f702f] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:01.556579 #18076]  INFO -- : [549301f3-6a28-4a64-8c4b-d4d0543f702f]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 257)
+I, [2023-03-14T13:04:01.557115 #18076]  INFO -- : [549301f3-6a28-4a64-8c4b-d4d0543f702f]   Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 761)
+I, [2023-03-14T13:04:01.557230 #18076]  INFO -- : [549301f3-6a28-4a64-8c4b-d4d0543f702f] Completed 200 OK in 1ms (Views: 1.2ms | Allocations: 1018)
+I, [2023-03-14T13:04:01.576114 #18076]  INFO -- : [7acae89c-76b9-4fdb-9135-edf1d1c507a8] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.576834 #18076] FATAL -- : [7acae89c-76b9-4fdb-9135-edf1d1c507a8]   
+[7acae89c-76b9-4fdb-9135-edf1d1c507a8] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[7acae89c-76b9-4fdb-9135-edf1d1c507a8]   
+I, [2023-03-14T13:04:01.577309 #18076]  INFO -- : [029d2cc5-7476-444d-b564-0d86f7ccfcbe] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.577765 #18076] FATAL -- : [029d2cc5-7476-444d-b564-0d86f7ccfcbe]   
+[029d2cc5-7476-444d-b564-0d86f7ccfcbe] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[029d2cc5-7476-444d-b564-0d86f7ccfcbe]   
+I, [2023-03-14T13:04:01.584750 #18076]  INFO -- : [302b3f92-2530-47a1-aa5c-2c2857698357] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.585159 #18076] FATAL -- : [302b3f92-2530-47a1-aa5c-2c2857698357]   
+[302b3f92-2530-47a1-aa5c-2c2857698357] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[302b3f92-2530-47a1-aa5c-2c2857698357]   
+I, [2023-03-14T13:04:01.616414 #18076]  INFO -- : [97171bec-c54b-47fa-b509-42294d24d6ff] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.617213 #18076] FATAL -- : [97171bec-c54b-47fa-b509-42294d24d6ff]   
+[97171bec-c54b-47fa-b509-42294d24d6ff] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[97171bec-c54b-47fa-b509-42294d24d6ff]   
+I, [2023-03-14T13:04:01.817535 #18076]  INFO -- : [f36ec3c4-6cd2-4f64-b227-e7e84de2c3f1] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+I, [2023-03-14T13:04:01.818228 #18076]  INFO -- : [f36ec3c4-6cd2-4f64-b227-e7e84de2c3f1] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:01.819426 #18076]  INFO -- : [f36ec3c4-6cd2-4f64-b227-e7e84de2c3f1]   Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 248)
+I, [2023-03-14T13:04:01.820071 #18076]  INFO -- : [f36ec3c4-6cd2-4f64-b227-e7e84de2c3f1]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 752)
+I, [2023-03-14T13:04:01.820211 #18076]  INFO -- : [f36ec3c4-6cd2-4f64-b227-e7e84de2c3f1] Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 1009)
+I, [2023-03-14T13:04:01.839014 #18076]  INFO -- : [5c003500-a074-4632-9662-1b731f24eab2] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.839765 #18076] FATAL -- : [5c003500-a074-4632-9662-1b731f24eab2]   
+[5c003500-a074-4632-9662-1b731f24eab2] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[5c003500-a074-4632-9662-1b731f24eab2]   
+I, [2023-03-14T13:04:01.840163 #18076]  INFO -- : [081835c5-f9ef-434e-b16f-b47eee1678d8] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.840600 #18076] FATAL -- : [081835c5-f9ef-434e-b16f-b47eee1678d8]   
+[081835c5-f9ef-434e-b16f-b47eee1678d8] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[081835c5-f9ef-434e-b16f-b47eee1678d8]   
+I, [2023-03-14T13:04:01.846257 #18076]  INFO -- : [538e728c-5c82-460d-bee2-be06ee18ab1b] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.846657 #18076] FATAL -- : [538e728c-5c82-460d-bee2-be06ee18ab1b]   
+[538e728c-5c82-460d-bee2-be06ee18ab1b] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[538e728c-5c82-460d-bee2-be06ee18ab1b]   
+I, [2023-03-14T13:04:01.881071 #18076]  INFO -- : [9e4c30fd-b02d-47e1-8957-e46ff1370ed9] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:01 +0530
+F, [2023-03-14T13:04:01.881707 #18076] FATAL -- : [9e4c30fd-b02d-47e1-8957-e46ff1370ed9]   
+[9e4c30fd-b02d-47e1-8957-e46ff1370ed9] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[9e4c30fd-b02d-47e1-8957-e46ff1370ed9]   
+I, [2023-03-14T13:04:02.125244 #18076]  INFO -- : [08a2a33a-436c-4f50-aedc-1be891e89483] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+I, [2023-03-14T13:04:02.125850 #18076]  INFO -- : [08a2a33a-436c-4f50-aedc-1be891e89483] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:02.126759 #18076]  INFO -- : [08a2a33a-436c-4f50-aedc-1be891e89483]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 248)
+I, [2023-03-14T13:04:02.127435 #18076]  INFO -- : [08a2a33a-436c-4f50-aedc-1be891e89483]   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 752)
+I, [2023-03-14T13:04:02.127608 #18076]  INFO -- : [08a2a33a-436c-4f50-aedc-1be891e89483] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1009)
+I, [2023-03-14T13:04:02.147706 #18076]  INFO -- : [c693fe82-62fd-4a8c-acc7-91a045e31370] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.148609 #18076] FATAL -- : [c693fe82-62fd-4a8c-acc7-91a045e31370]   
+[c693fe82-62fd-4a8c-acc7-91a045e31370] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[c693fe82-62fd-4a8c-acc7-91a045e31370]   
+I, [2023-03-14T13:04:02.149290 #18076]  INFO -- : [29792f75-8488-410a-8d1d-3feff00cc81b] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.149604 #18076] FATAL -- : [29792f75-8488-410a-8d1d-3feff00cc81b]   
+[29792f75-8488-410a-8d1d-3feff00cc81b] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[29792f75-8488-410a-8d1d-3feff00cc81b]   
+I, [2023-03-14T13:04:02.159829 #18076]  INFO -- : [52c9ba4f-73b7-404a-b732-7e3f29d7b772] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.160437 #18076] FATAL -- : [52c9ba4f-73b7-404a-b732-7e3f29d7b772]   
+[52c9ba4f-73b7-404a-b732-7e3f29d7b772] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[52c9ba4f-73b7-404a-b732-7e3f29d7b772]   
+I, [2023-03-14T13:04:02.185534 #18076]  INFO -- : [59681c0e-82e5-479e-b9a0-1eb416172a69] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.185970 #18076] FATAL -- : [59681c0e-82e5-479e-b9a0-1eb416172a69]   
+[59681c0e-82e5-479e-b9a0-1eb416172a69] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[59681c0e-82e5-479e-b9a0-1eb416172a69]   
+I, [2023-03-14T13:04:02.384810 #18076]  INFO -- : [6a03ba13-5906-452c-8b73-1a9ab37aebec] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+I, [2023-03-14T13:04:02.385399 #18076]  INFO -- : [6a03ba13-5906-452c-8b73-1a9ab37aebec] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:02.387127 #18076]  INFO -- : [6a03ba13-5906-452c-8b73-1a9ab37aebec]   Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 263)
+I, [2023-03-14T13:04:02.388002 #18076]  INFO -- : [6a03ba13-5906-452c-8b73-1a9ab37aebec]   Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 767)
+I, [2023-03-14T13:04:02.388179 #18076]  INFO -- : [6a03ba13-5906-452c-8b73-1a9ab37aebec] Completed 200 OK in 3ms (Views: 2.5ms | Allocations: 1024)
+I, [2023-03-14T13:04:02.407411 #18076]  INFO -- : [2803694e-f9b5-4973-a8cd-292d1faecf97] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.408061 #18076] FATAL -- : [2803694e-f9b5-4973-a8cd-292d1faecf97]   
+[2803694e-f9b5-4973-a8cd-292d1faecf97] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[2803694e-f9b5-4973-a8cd-292d1faecf97]   
+I, [2023-03-14T13:04:02.408660 #18076]  INFO -- : [6ea47fee-80b2-441a-91d1-29ca560effa3] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.409325 #18076] FATAL -- : [6ea47fee-80b2-441a-91d1-29ca560effa3]   
+[6ea47fee-80b2-441a-91d1-29ca560effa3] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[6ea47fee-80b2-441a-91d1-29ca560effa3]   
+I, [2023-03-14T13:04:02.419385 #18076]  INFO -- : [eec19e6c-a395-4dab-86bc-77290a9bd006] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.419697 #18076] FATAL -- : [eec19e6c-a395-4dab-86bc-77290a9bd006]   
+[eec19e6c-a395-4dab-86bc-77290a9bd006] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[eec19e6c-a395-4dab-86bc-77290a9bd006]   
+I, [2023-03-14T13:04:02.450846 #18076]  INFO -- : [2d7e0fce-3225-4e7d-a68a-118056bf6bd4] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.451485 #18076] FATAL -- : [2d7e0fce-3225-4e7d-a68a-118056bf6bd4]   
+[2d7e0fce-3225-4e7d-a68a-118056bf6bd4] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[2d7e0fce-3225-4e7d-a68a-118056bf6bd4]   
+I, [2023-03-14T13:04:02.665008 #18076]  INFO -- : [d032ba20-b5e8-4ada-b8db-28fb7ae80ada] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+I, [2023-03-14T13:04:02.665506 #18076]  INFO -- : [d032ba20-b5e8-4ada-b8db-28fb7ae80ada] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:02.666494 #18076]  INFO -- : [d032ba20-b5e8-4ada-b8db-28fb7ae80ada]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 260)
+I, [2023-03-14T13:04:02.667142 #18076]  INFO -- : [d032ba20-b5e8-4ada-b8db-28fb7ae80ada]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 764)
+I, [2023-03-14T13:04:02.667269 #18076]  INFO -- : [d032ba20-b5e8-4ada-b8db-28fb7ae80ada] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1021)
+I, [2023-03-14T13:04:02.683102 #18076]  INFO -- : [7fcc2e31-2d34-4744-a4a4-7b9a1ad0be3f] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.683483 #18076] FATAL -- : [7fcc2e31-2d34-4744-a4a4-7b9a1ad0be3f]   
+[7fcc2e31-2d34-4744-a4a4-7b9a1ad0be3f] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[7fcc2e31-2d34-4744-a4a4-7b9a1ad0be3f]   
+I, [2023-03-14T13:04:02.683962 #18076]  INFO -- : [976b2012-13ff-4218-981e-f7b1cd76e91e] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.684171 #18076] FATAL -- : [976b2012-13ff-4218-981e-f7b1cd76e91e]   
+[976b2012-13ff-4218-981e-f7b1cd76e91e] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[976b2012-13ff-4218-981e-f7b1cd76e91e]   
+I, [2023-03-14T13:04:02.705044 #18076]  INFO -- : [ba53ed07-6aa6-4b58-8a08-e8cb5305ce58] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.705615 #18076] FATAL -- : [ba53ed07-6aa6-4b58-8a08-e8cb5305ce58]   
+[ba53ed07-6aa6-4b58-8a08-e8cb5305ce58] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[ba53ed07-6aa6-4b58-8a08-e8cb5305ce58]   
+I, [2023-03-14T13:04:02.727170 #18076]  INFO -- : [7f7ab850-61ec-4290-be30-57323d14416c] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.727640 #18076] FATAL -- : [7f7ab850-61ec-4290-be30-57323d14416c]   
+[7f7ab850-61ec-4290-be30-57323d14416c] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[7f7ab850-61ec-4290-be30-57323d14416c]   
+I, [2023-03-14T13:04:02.924960 #18076]  INFO -- : [ac40971b-e64a-4b1b-a81c-0a3c412aba4e] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+I, [2023-03-14T13:04:02.925641 #18076]  INFO -- : [ac40971b-e64a-4b1b-a81c-0a3c412aba4e] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:02.926487 #18076]  INFO -- : [ac40971b-e64a-4b1b-a81c-0a3c412aba4e]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 251)
+I, [2023-03-14T13:04:02.927350 #18076]  INFO -- : [ac40971b-e64a-4b1b-a81c-0a3c412aba4e]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 755)
+I, [2023-03-14T13:04:02.927515 #18076]  INFO -- : [ac40971b-e64a-4b1b-a81c-0a3c412aba4e] Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 1013)
+I, [2023-03-14T13:04:02.946000 #18076]  INFO -- : [aa815f58-2b1a-40ae-984f-afbabca234c0] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.946837 #18076] FATAL -- : [aa815f58-2b1a-40ae-984f-afbabca234c0]   
+[aa815f58-2b1a-40ae-984f-afbabca234c0] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[aa815f58-2b1a-40ae-984f-afbabca234c0]   
+I, [2023-03-14T13:04:02.947232 #18076]  INFO -- : [e90feec7-d46c-49e7-81de-c124324eb6c6] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.947755 #18076] FATAL -- : [e90feec7-d46c-49e7-81de-c124324eb6c6]   
+[e90feec7-d46c-49e7-81de-c124324eb6c6] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[e90feec7-d46c-49e7-81de-c124324eb6c6]   
+I, [2023-03-14T13:04:02.965431 #18076]  INFO -- : [cd6569e6-1b1c-4bc3-ac9a-2c7ff24dbde5] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:02 +0530
+F, [2023-03-14T13:04:02.966362 #18076] FATAL -- : [cd6569e6-1b1c-4bc3-ac9a-2c7ff24dbde5]   
+[cd6569e6-1b1c-4bc3-ac9a-2c7ff24dbde5] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[cd6569e6-1b1c-4bc3-ac9a-2c7ff24dbde5]   
+I, [2023-03-14T13:04:03.006976 #18076]  INFO -- : [376f53ee-457d-4e0f-afd8-c823e3ec4031] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+F, [2023-03-14T13:04:03.007630 #18076] FATAL -- : [376f53ee-457d-4e0f-afd8-c823e3ec4031]   
+[376f53ee-457d-4e0f-afd8-c823e3ec4031] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[376f53ee-457d-4e0f-afd8-c823e3ec4031]   
+I, [2023-03-14T13:04:03.605195 #18076]  INFO -- : [360083c7-44a9-48c3-8fd5-7811b2496293] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+I, [2023-03-14T13:04:03.605790 #18076]  INFO -- : [360083c7-44a9-48c3-8fd5-7811b2496293] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:03.606748 #18076]  INFO -- : [360083c7-44a9-48c3-8fd5-7811b2496293]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 242)
+I, [2023-03-14T13:04:03.607602 #18076]  INFO -- : [360083c7-44a9-48c3-8fd5-7811b2496293]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 746)
+I, [2023-03-14T13:04:03.607765 #18076]  INFO -- : [360083c7-44a9-48c3-8fd5-7811b2496293] Completed 200 OK in 2ms (Views: 1.7ms | Allocations: 1003)
+I, [2023-03-14T13:04:03.626353 #18076]  INFO -- : [b493a046-c2e5-424b-88ef-f8ee250ea57d] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+F, [2023-03-14T13:04:03.627010 #18076] FATAL -- : [b493a046-c2e5-424b-88ef-f8ee250ea57d]   
+[b493a046-c2e5-424b-88ef-f8ee250ea57d] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[b493a046-c2e5-424b-88ef-f8ee250ea57d]   
+I, [2023-03-14T13:04:03.627638 #18076]  INFO -- : [45eefe04-f009-463c-a632-c2fd69e5f3a8] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+F, [2023-03-14T13:04:03.628027 #18076] FATAL -- : [45eefe04-f009-463c-a632-c2fd69e5f3a8]   
+[45eefe04-f009-463c-a632-c2fd69e5f3a8] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[45eefe04-f009-463c-a632-c2fd69e5f3a8]   
+I, [2023-03-14T13:04:03.638318 #18076]  INFO -- : [7ff6e08a-316d-454b-add7-ecb2346dcd52] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+F, [2023-03-14T13:04:03.639085 #18076] FATAL -- : [7ff6e08a-316d-454b-add7-ecb2346dcd52]   
+[7ff6e08a-316d-454b-add7-ecb2346dcd52] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[7ff6e08a-316d-454b-add7-ecb2346dcd52]   
+I, [2023-03-14T13:04:03.667703 #18076]  INFO -- : [5f366f09-2a4b-44bd-ac34-157777ec32bf] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+F, [2023-03-14T13:04:03.668032 #18076] FATAL -- : [5f366f09-2a4b-44bd-ac34-157777ec32bf]   
+[5f366f09-2a4b-44bd-ac34-157777ec32bf] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[5f366f09-2a4b-44bd-ac34-157777ec32bf]   
+I, [2023-03-14T13:04:03.867503 #18076]  INFO -- : [c5d6b3a7-7be6-456d-b0ce-a774b3a5c43d] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+I, [2023-03-14T13:04:03.868251 #18076]  INFO -- : [c5d6b3a7-7be6-456d-b0ce-a774b3a5c43d] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:03.869204 #18076]  INFO -- : [c5d6b3a7-7be6-456d-b0ce-a774b3a5c43d]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 239)
+I, [2023-03-14T13:04:03.869939 #18076]  INFO -- : [c5d6b3a7-7be6-456d-b0ce-a774b3a5c43d]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 743)
+I, [2023-03-14T13:04:03.870105 #18076]  INFO -- : [c5d6b3a7-7be6-456d-b0ce-a774b3a5c43d] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1000)
+I, [2023-03-14T13:04:03.890345 #18076]  INFO -- : [ac2b3bbc-4db6-4061-a040-838485b0860f] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+F, [2023-03-14T13:04:03.891190 #18076] FATAL -- : [ac2b3bbc-4db6-4061-a040-838485b0860f]   
+[ac2b3bbc-4db6-4061-a040-838485b0860f] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[ac2b3bbc-4db6-4061-a040-838485b0860f]   
+I, [2023-03-14T13:04:03.891612 #18076]  INFO -- : [f4e827d6-4f53-4e0a-9fff-babf17823f9a] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+F, [2023-03-14T13:04:03.892157 #18076] FATAL -- : [f4e827d6-4f53-4e0a-9fff-babf17823f9a]   
+[f4e827d6-4f53-4e0a-9fff-babf17823f9a] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[f4e827d6-4f53-4e0a-9fff-babf17823f9a]   
+I, [2023-03-14T13:04:03.899083 #18076]  INFO -- : [d501239f-4b13-46af-80bd-11fdcbae4e5b] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+F, [2023-03-14T13:04:03.899413 #18076] FATAL -- : [d501239f-4b13-46af-80bd-11fdcbae4e5b]   
+[d501239f-4b13-46af-80bd-11fdcbae4e5b] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[d501239f-4b13-46af-80bd-11fdcbae4e5b]   
+I, [2023-03-14T13:04:03.934529 #18076]  INFO -- : [1f911a36-4dcd-48e1-bb6c-566148c7eb1e] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:03 +0530
+F, [2023-03-14T13:04:03.935061 #18076] FATAL -- : [1f911a36-4dcd-48e1-bb6c-566148c7eb1e]   
+[1f911a36-4dcd-48e1-bb6c-566148c7eb1e] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[1f911a36-4dcd-48e1-bb6c-566148c7eb1e]   
+I, [2023-03-14T13:04:04.124016 #18076]  INFO -- : [269867b0-3dcc-4499-8854-40d7c7d7de93] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+I, [2023-03-14T13:04:04.124530 #18076]  INFO -- : [269867b0-3dcc-4499-8854-40d7c7d7de93] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:04.125320 #18076]  INFO -- : [269867b0-3dcc-4499-8854-40d7c7d7de93]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 239)
+I, [2023-03-14T13:04:04.125938 #18076]  INFO -- : [269867b0-3dcc-4499-8854-40d7c7d7de93]   Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 743)
+I, [2023-03-14T13:04:04.126083 #18076]  INFO -- : [269867b0-3dcc-4499-8854-40d7c7d7de93] Completed 200 OK in 1ms (Views: 1.3ms | Allocations: 1000)
+I, [2023-03-14T13:04:04.144819 #18076]  INFO -- : [38124712-4b21-4032-89e2-b8fc6f1a5ee2] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+F, [2023-03-14T13:04:04.145598 #18076] FATAL -- : [38124712-4b21-4032-89e2-b8fc6f1a5ee2]   
+[38124712-4b21-4032-89e2-b8fc6f1a5ee2] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[38124712-4b21-4032-89e2-b8fc6f1a5ee2]   
+I, [2023-03-14T13:04:04.145965 #18076]  INFO -- : [a38a58a6-5be1-4904-9cfa-b580b7bbc224] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+F, [2023-03-14T13:04:04.146449 #18076] FATAL -- : [a38a58a6-5be1-4904-9cfa-b580b7bbc224]   
+[a38a58a6-5be1-4904-9cfa-b580b7bbc224] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[a38a58a6-5be1-4904-9cfa-b580b7bbc224]   
+I, [2023-03-14T13:04:04.155561 #18076]  INFO -- : [8db2b894-d815-41b9-9e67-e10d37b16e78] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+F, [2023-03-14T13:04:04.155901 #18076] FATAL -- : [8db2b894-d815-41b9-9e67-e10d37b16e78]   
+[8db2b894-d815-41b9-9e67-e10d37b16e78] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[8db2b894-d815-41b9-9e67-e10d37b16e78]   
+I, [2023-03-14T13:04:04.185447 #18076]  INFO -- : [1b8115a4-1efd-4a1b-92a2-9777aa87a3a2] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+F, [2023-03-14T13:04:04.185867 #18076] FATAL -- : [1b8115a4-1efd-4a1b-92a2-9777aa87a3a2]   
+[1b8115a4-1efd-4a1b-92a2-9777aa87a3a2] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[1b8115a4-1efd-4a1b-92a2-9777aa87a3a2]   
+I, [2023-03-14T13:04:04.394869 #18076]  INFO -- : [1b68538b-c028-4215-9edf-98b274e29d21] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+I, [2023-03-14T13:04:04.395704 #18076]  INFO -- : [1b68538b-c028-4215-9edf-98b274e29d21] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:04.396663 #18076]  INFO -- : [1b68538b-c028-4215-9edf-98b274e29d21]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 248)
+I, [2023-03-14T13:04:04.397288 #18076]  INFO -- : [1b68538b-c028-4215-9edf-98b274e29d21]   Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 752)
+I, [2023-03-14T13:04:04.397437 #18076]  INFO -- : [1b68538b-c028-4215-9edf-98b274e29d21] Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 1009)
+I, [2023-03-14T13:04:04.416447 #18076]  INFO -- : [bd65d713-fdf8-4147-86df-d3af27efb3ff] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+F, [2023-03-14T13:04:04.417202 #18076] FATAL -- : [bd65d713-fdf8-4147-86df-d3af27efb3ff]   
+[bd65d713-fdf8-4147-86df-d3af27efb3ff] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[bd65d713-fdf8-4147-86df-d3af27efb3ff]   
+I, [2023-03-14T13:04:04.417814 #18076]  INFO -- : [90df8952-fdd2-411c-ae93-3a3e7a8f501a] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+F, [2023-03-14T13:04:04.418112 #18076] FATAL -- : [90df8952-fdd2-411c-ae93-3a3e7a8f501a]   
+[90df8952-fdd2-411c-ae93-3a3e7a8f501a] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[90df8952-fdd2-411c-ae93-3a3e7a8f501a]   
+I, [2023-03-14T13:04:04.425387 #18076]  INFO -- : [16b37550-2677-4790-a665-434a209f5748] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+F, [2023-03-14T13:04:04.425722 #18076] FATAL -- : [16b37550-2677-4790-a665-434a209f5748]   
+[16b37550-2677-4790-a665-434a209f5748] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[16b37550-2677-4790-a665-434a209f5748]   
+I, [2023-03-14T13:04:04.461146 #18076]  INFO -- : [fd874712-37db-4f10-834c-5d5ad175f026] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:04 +0530
+F, [2023-03-14T13:04:04.461494 #18076] FATAL -- : [fd874712-37db-4f10-834c-5d5ad175f026]   
+[fd874712-37db-4f10-834c-5d5ad175f026] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[fd874712-37db-4f10-834c-5d5ad175f026]   
+I, [2023-03-14T13:04:15.378320 #18076]  INFO -- : [8cd4ca43-2391-4c09-b05e-a7afa66a09fc] Started GET "/users/sign_up" for 127.0.0.1 at 2023-03-14 13:04:15 +0530
+I, [2023-03-14T13:04:15.379076 #18076]  INFO -- : [8cd4ca43-2391-4c09-b05e-a7afa66a09fc] Processing by Devise::RegistrationsController#new as HTML
+I, [2023-03-14T13:04:15.399988 #18076]  INFO -- : [8cd4ca43-2391-4c09-b05e-a7afa66a09fc]   Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4591)
+I, [2023-03-14T13:04:15.400726 #18076]  INFO -- : [8cd4ca43-2391-4c09-b05e-a7afa66a09fc]   Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 5165)
+I, [2023-03-14T13:04:15.400893 #18076]  INFO -- : [8cd4ca43-2391-4c09-b05e-a7afa66a09fc] Completed 200 OK in 22ms (Views: 6.8ms | ActiveRecord: 0.9ms | Allocations: 12969)
+I, [2023-03-14T13:04:15.423377 #18076]  INFO -- : [6e8ba291-583d-4127-923d-8b0dae96faa0] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:15 +0530
+F, [2023-03-14T13:04:15.423969 #18076] FATAL -- : [6e8ba291-583d-4127-923d-8b0dae96faa0]   
+[6e8ba291-583d-4127-923d-8b0dae96faa0] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[6e8ba291-583d-4127-923d-8b0dae96faa0]   
+I, [2023-03-14T13:04:15.424904 #18076]  INFO -- : [fbfcd4b2-d32c-4e3f-9022-ca509c2ebe01] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:15 +0530
+F, [2023-03-14T13:04:15.425324 #18076] FATAL -- : [fbfcd4b2-d32c-4e3f-9022-ca509c2ebe01]   
+[fbfcd4b2-d32c-4e3f-9022-ca509c2ebe01] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[fbfcd4b2-d32c-4e3f-9022-ca509c2ebe01]   
+I, [2023-03-14T13:04:16.486550 #18076]  INFO -- : [79feb8d4-5b5d-47be-80c9-b7f389b570db] Started GET "/users/sign_in" for 127.0.0.1 at 2023-03-14 13:04:16 +0530
+I, [2023-03-14T13:04:16.487598 #18076]  INFO -- : [79feb8d4-5b5d-47be-80c9-b7f389b570db] Processing by Devise::SessionsController#new as HTML
+I, [2023-03-14T13:04:16.502452 #18076]  INFO -- : [79feb8d4-5b5d-47be-80c9-b7f389b570db]   Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.0ms | Allocations: 2105)
+I, [2023-03-14T13:04:16.503507 #18076]  INFO -- : [79feb8d4-5b5d-47be-80c9-b7f389b570db]   Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 2706)
+I, [2023-03-14T13:04:16.503835 #18076]  INFO -- : [79feb8d4-5b5d-47be-80c9-b7f389b570db] Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 3989)
+I, [2023-03-14T13:04:16.529467 #18076]  INFO -- : [3b13a2a9-a49c-48df-add8-bead185135ea] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:16 +0530
+F, [2023-03-14T13:04:16.530186 #18076] FATAL -- : [3b13a2a9-a49c-48df-add8-bead185135ea]   
+[3b13a2a9-a49c-48df-add8-bead185135ea] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[3b13a2a9-a49c-48df-add8-bead185135ea]   
+I, [2023-03-14T13:04:16.530857 #18076]  INFO -- : [a644c52e-09a6-4a21-b978-1d77821c8d1f] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:16 +0530
+F, [2023-03-14T13:04:16.531242 #18076] FATAL -- : [a644c52e-09a6-4a21-b978-1d77821c8d1f]   
+[a644c52e-09a6-4a21-b978-1d77821c8d1f] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[a644c52e-09a6-4a21-b978-1d77821c8d1f]   
+I, [2023-03-14T13:04:17.121584 #18076]  INFO -- : [e77ad653-26e2-4c10-bd21-83220d30adc2] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:17 +0530
+I, [2023-03-14T13:04:17.122280 #18076]  INFO -- : [e77ad653-26e2-4c10-bd21-83220d30adc2] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:17.124183 #18076]  INFO -- : [e77ad653-26e2-4c10-bd21-83220d30adc2]   Rendered pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 299)
+I, [2023-03-14T13:04:17.125485 #18076]  INFO -- : [e77ad653-26e2-4c10-bd21-83220d30adc2]   Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 804)
+I, [2023-03-14T13:04:17.125727 #18076]  INFO -- : [e77ad653-26e2-4c10-bd21-83220d30adc2] Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1083)
+I, [2023-03-14T13:04:17.146927 #18076]  INFO -- : [b98e2ba4-6780-457b-a879-9d4b4907d59e] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:17 +0530
+F, [2023-03-14T13:04:17.147661 #18076] FATAL -- : [b98e2ba4-6780-457b-a879-9d4b4907d59e]   
+[b98e2ba4-6780-457b-a879-9d4b4907d59e] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[b98e2ba4-6780-457b-a879-9d4b4907d59e]   
+I, [2023-03-14T13:04:17.148489 #18076]  INFO -- : [123cbdff-d6af-4a34-ae7a-7bad2d5884e6] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:17 +0530
+F, [2023-03-14T13:04:17.148908 #18076] FATAL -- : [123cbdff-d6af-4a34-ae7a-7bad2d5884e6]   
+[123cbdff-d6af-4a34-ae7a-7bad2d5884e6] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[123cbdff-d6af-4a34-ae7a-7bad2d5884e6]   
+I, [2023-03-14T13:04:17.157783 #18076]  INFO -- : [34ecde4a-c2eb-4f2f-a07a-29d2cf30fc93] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:17 +0530
+F, [2023-03-14T13:04:17.158142 #18076] FATAL -- : [34ecde4a-c2eb-4f2f-a07a-29d2cf30fc93]   
+[34ecde4a-c2eb-4f2f-a07a-29d2cf30fc93] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[34ecde4a-c2eb-4f2f-a07a-29d2cf30fc93]   
+I, [2023-03-14T13:04:18.758331 #18076]  INFO -- : [a2f5304b-0a39-4957-9db4-b11c01f4609f] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+I, [2023-03-14T13:04:18.758807 #18076]  INFO -- : [a2f5304b-0a39-4957-9db4-b11c01f4609f] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:18.759514 #18076]  INFO -- : [a2f5304b-0a39-4957-9db4-b11c01f4609f]   Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 263)
+I, [2023-03-14T13:04:18.760170 #18076]  INFO -- : [a2f5304b-0a39-4957-9db4-b11c01f4609f]   Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 767)
+I, [2023-03-14T13:04:18.760300 #18076]  INFO -- : [a2f5304b-0a39-4957-9db4-b11c01f4609f] Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1027)
+I, [2023-03-14T13:04:18.777708 #18076]  INFO -- : [61f9e07b-4c58-4318-b62b-93619fa53505] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+F, [2023-03-14T13:04:18.778317 #18076] FATAL -- : [61f9e07b-4c58-4318-b62b-93619fa53505]   
+[61f9e07b-4c58-4318-b62b-93619fa53505] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[61f9e07b-4c58-4318-b62b-93619fa53505]   
+I, [2023-03-14T13:04:18.778840 #18076]  INFO -- : [0d2c7eba-b675-4391-91f8-c60d72fcff8a] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+F, [2023-03-14T13:04:18.779168 #18076] FATAL -- : [0d2c7eba-b675-4391-91f8-c60d72fcff8a]   
+[0d2c7eba-b675-4391-91f8-c60d72fcff8a] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[0d2c7eba-b675-4391-91f8-c60d72fcff8a]   
+I, [2023-03-14T13:04:18.786565 #18076]  INFO -- : [d604bd69-70d5-491a-8644-1760e1edbcf1] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+F, [2023-03-14T13:04:18.786872 #18076] FATAL -- : [d604bd69-70d5-491a-8644-1760e1edbcf1]   
+[d604bd69-70d5-491a-8644-1760e1edbcf1] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[d604bd69-70d5-491a-8644-1760e1edbcf1]   
+I, [2023-03-14T13:04:18.823779 #18076]  INFO -- : [858f96b4-f02f-4ee2-b27b-d400945f5b9d] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+F, [2023-03-14T13:04:18.824188 #18076] FATAL -- : [858f96b4-f02f-4ee2-b27b-d400945f5b9d]   
+[858f96b4-f02f-4ee2-b27b-d400945f5b9d] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[858f96b4-f02f-4ee2-b27b-d400945f5b9d]   
+I, [2023-03-14T13:04:18.934395 #18076]  INFO -- : [78080832-543c-4b5b-82d3-e0c7bec8e2cd] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+I, [2023-03-14T13:04:18.934939 #18076]  INFO -- : [78080832-543c-4b5b-82d3-e0c7bec8e2cd] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:18.935866 #18076]  INFO -- : [78080832-543c-4b5b-82d3-e0c7bec8e2cd]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 236)
+I, [2023-03-14T13:04:18.936523 #18076]  INFO -- : [78080832-543c-4b5b-82d3-e0c7bec8e2cd]   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 740)
+I, [2023-03-14T13:04:18.936727 #18076]  INFO -- : [78080832-543c-4b5b-82d3-e0c7bec8e2cd] Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 1000)
+I, [2023-03-14T13:04:18.953947 #18076]  INFO -- : [580213cf-59ca-4c2e-878f-1fc2211da7ba] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+F, [2023-03-14T13:04:18.954868 #18076] FATAL -- : [580213cf-59ca-4c2e-878f-1fc2211da7ba]   
+[580213cf-59ca-4c2e-878f-1fc2211da7ba] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[580213cf-59ca-4c2e-878f-1fc2211da7ba]   
+I, [2023-03-14T13:04:18.954333 #18076]  INFO -- : [045c572d-6884-4e4b-a2c3-e81e32b1f193] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+F, [2023-03-14T13:04:18.955266 #18076] FATAL -- : [045c572d-6884-4e4b-a2c3-e81e32b1f193]   
+[045c572d-6884-4e4b-a2c3-e81e32b1f193] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[045c572d-6884-4e4b-a2c3-e81e32b1f193]   
+I, [2023-03-14T13:04:18.962708 #18076]  INFO -- : [a2fda3a8-5524-4b99-ac44-38a2bf48239e] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+F, [2023-03-14T13:04:18.963219 #18076] FATAL -- : [a2fda3a8-5524-4b99-ac44-38a2bf48239e]   
+[a2fda3a8-5524-4b99-ac44-38a2bf48239e] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[a2fda3a8-5524-4b99-ac44-38a2bf48239e]   
+I, [2023-03-14T13:04:18.995236 #18076]  INFO -- : [f4b191de-ed79-43ab-9782-28b437e4bee6] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:18 +0530
+F, [2023-03-14T13:04:18.995744 #18076] FATAL -- : [f4b191de-ed79-43ab-9782-28b437e4bee6]   
+[f4b191de-ed79-43ab-9782-28b437e4bee6] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[f4b191de-ed79-43ab-9782-28b437e4bee6]   
+I, [2023-03-14T13:04:19.089434 #18076]  INFO -- : [e767dce3-5bcc-4338-bfb7-bfa72cf9c0ae] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+I, [2023-03-14T13:04:19.090337 #18076]  INFO -- : [e767dce3-5bcc-4338-bfb7-bfa72cf9c0ae] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:19.091521 #18076]  INFO -- : [e767dce3-5bcc-4338-bfb7-bfa72cf9c0ae]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 248)
+I, [2023-03-14T13:04:19.092303 #18076]  INFO -- : [e767dce3-5bcc-4338-bfb7-bfa72cf9c0ae]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 752)
+I, [2023-03-14T13:04:19.092447 #18076]  INFO -- : [e767dce3-5bcc-4338-bfb7-bfa72cf9c0ae] Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1012)
+I, [2023-03-14T13:04:19.110792 #18076]  INFO -- : [999e5b22-1b95-4231-b1e4-bacabdfe5b89] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+F, [2023-03-14T13:04:19.111903 #18076] FATAL -- : [999e5b22-1b95-4231-b1e4-bacabdfe5b89]   
+[999e5b22-1b95-4231-b1e4-bacabdfe5b89] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[999e5b22-1b95-4231-b1e4-bacabdfe5b89]   
+I, [2023-03-14T13:04:19.111278 #18076]  INFO -- : [c8f1960c-70ff-4889-a6b5-35ae7f78a994] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+F, [2023-03-14T13:04:19.112637 #18076] FATAL -- : [c8f1960c-70ff-4889-a6b5-35ae7f78a994]   
+[c8f1960c-70ff-4889-a6b5-35ae7f78a994] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[c8f1960c-70ff-4889-a6b5-35ae7f78a994]   
+I, [2023-03-14T13:04:19.120369 #18076]  INFO -- : [fa6bcf88-27cb-4db2-b5f3-740479bda1bf] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+F, [2023-03-14T13:04:19.120736 #18076] FATAL -- : [fa6bcf88-27cb-4db2-b5f3-740479bda1bf]   
+[fa6bcf88-27cb-4db2-b5f3-740479bda1bf] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[fa6bcf88-27cb-4db2-b5f3-740479bda1bf]   
+I, [2023-03-14T13:04:19.154320 #18076]  INFO -- : [49e60d65-8daa-43ce-bb4f-97f3a6eb4455] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+F, [2023-03-14T13:04:19.154676 #18076] FATAL -- : [49e60d65-8daa-43ce-bb4f-97f3a6eb4455]   
+[49e60d65-8daa-43ce-bb4f-97f3a6eb4455] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[49e60d65-8daa-43ce-bb4f-97f3a6eb4455]   
+I, [2023-03-14T13:04:19.243706 #18076]  INFO -- : [1f88e8a6-b8c3-404d-9694-9131c3dbfcd0] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+I, [2023-03-14T13:04:19.244509 #18076]  INFO -- : [1f88e8a6-b8c3-404d-9694-9131c3dbfcd0] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:19.245544 #18076]  INFO -- : [1f88e8a6-b8c3-404d-9694-9131c3dbfcd0]   Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 245)
+I, [2023-03-14T13:04:19.246170 #18076]  INFO -- : [1f88e8a6-b8c3-404d-9694-9131c3dbfcd0]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 749)
+I, [2023-03-14T13:04:19.246319 #18076]  INFO -- : [1f88e8a6-b8c3-404d-9694-9131c3dbfcd0] Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 1009)
+I, [2023-03-14T13:04:19.263557 #18076]  INFO -- : [06457c9e-b928-4bb7-82fd-04837cb52061] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+F, [2023-03-14T13:04:19.264310 #18076] FATAL -- : [06457c9e-b928-4bb7-82fd-04837cb52061]   
+[06457c9e-b928-4bb7-82fd-04837cb52061] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[06457c9e-b928-4bb7-82fd-04837cb52061]   
+I, [2023-03-14T13:04:19.263897 #18076]  INFO -- : [068350ef-bf9e-4431-bc17-20631e1afc87] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+F, [2023-03-14T13:04:19.264824 #18076] FATAL -- : [068350ef-bf9e-4431-bc17-20631e1afc87]   
+[068350ef-bf9e-4431-bc17-20631e1afc87] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[068350ef-bf9e-4431-bc17-20631e1afc87]   
+I, [2023-03-14T13:04:19.273552 #18076]  INFO -- : [dfb415c5-9145-44b0-a862-1658bd423a5a] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+F, [2023-03-14T13:04:19.273937 #18076] FATAL -- : [dfb415c5-9145-44b0-a862-1658bd423a5a]   
+[dfb415c5-9145-44b0-a862-1658bd423a5a] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[dfb415c5-9145-44b0-a862-1658bd423a5a]   
+I, [2023-03-14T13:04:19.313470 #18076]  INFO -- : [b12f176a-d68a-4c3a-9c24-78554ce7797a] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:04:19 +0530
+F, [2023-03-14T13:04:19.313904 #18076] FATAL -- : [b12f176a-d68a-4c3a-9c24-78554ce7797a]   
+[b12f176a-d68a-4c3a-9c24-78554ce7797a] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[b12f176a-d68a-4c3a-9c24-78554ce7797a]   
+W, [2023-03-14T13:04:39.851078 #18211]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-03-14T13:04:45.228859 #18376]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-03-14T13:04:53.289098 #18376]  INFO -- : [fa17ed77-dffe-4af8-a51e-e991b17c15f6] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:53 +0530
+I, [2023-03-14T13:04:53.290544 #18376]  INFO -- : [fa17ed77-dffe-4af8-a51e-e991b17c15f6] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:53.296281 #18376]  INFO -- : [fa17ed77-dffe-4af8-a51e-e991b17c15f6]   Rendered pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 898)
+I, [2023-03-14T13:04:53.297804 #18376]  INFO -- : [fa17ed77-dffe-4af8-a51e-e991b17c15f6]   Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2095)
+I, [2023-03-14T13:04:53.298072 #18376]  INFO -- : [fa17ed77-dffe-4af8-a51e-e991b17c15f6] Completed 200 OK in 7ms (Views: 6.5ms | Allocations: 3435)
+I, [2023-03-14T13:04:53.315973 #18376]  INFO -- : [652b5542-d1a1-499d-8ad2-00cca0409a7d] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:53 +0530
+F, [2023-03-14T13:04:53.316820 #18376] FATAL -- : [652b5542-d1a1-499d-8ad2-00cca0409a7d]   
+[652b5542-d1a1-499d-8ad2-00cca0409a7d] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[652b5542-d1a1-499d-8ad2-00cca0409a7d]   
+I, [2023-03-14T13:04:53.317526 #18376]  INFO -- : [9c493ad7-22b9-435b-8d77-e2f746a7f7c6] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:53 +0530
+F, [2023-03-14T13:04:53.317977 #18376] FATAL -- : [9c493ad7-22b9-435b-8d77-e2f746a7f7c6]   
+[9c493ad7-22b9-435b-8d77-e2f746a7f7c6] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[9c493ad7-22b9-435b-8d77-e2f746a7f7c6]   
+I, [2023-03-14T13:04:53.325122 #18376]  INFO -- : [8350bc27-9af2-4544-9ee7-d513b123e83d] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:53 +0530
+F, [2023-03-14T13:04:53.325770 #18376] FATAL -- : [8350bc27-9af2-4544-9ee7-d513b123e83d]   
+[8350bc27-9af2-4544-9ee7-d513b123e83d] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[8350bc27-9af2-4544-9ee7-d513b123e83d]   
+I, [2023-03-14T13:04:53.788444 #18376]  INFO -- : [599b91ec-01b2-4e0c-88f0-bd26f784b17a] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:53 +0530
+I, [2023-03-14T13:04:53.789015 #18376]  INFO -- : [599b91ec-01b2-4e0c-88f0-bd26f784b17a] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:53.789944 #18376]  INFO -- : [599b91ec-01b2-4e0c-88f0-bd26f784b17a]   Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 236)
+I, [2023-03-14T13:04:53.790669 #18376]  INFO -- : [599b91ec-01b2-4e0c-88f0-bd26f784b17a]   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 741)
+I, [2023-03-14T13:04:53.790804 #18376]  INFO -- : [599b91ec-01b2-4e0c-88f0-bd26f784b17a] Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 1023)
+I, [2023-03-14T13:04:53.810499 #18376]  INFO -- : [894fd317-66d9-4a1c-8234-a2d9b2b5d86a] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:53 +0530
+F, [2023-03-14T13:04:53.811299 #18376] FATAL -- : [894fd317-66d9-4a1c-8234-a2d9b2b5d86a]   
+[894fd317-66d9-4a1c-8234-a2d9b2b5d86a] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[894fd317-66d9-4a1c-8234-a2d9b2b5d86a]   
+I, [2023-03-14T13:04:53.812085 #18376]  INFO -- : [7d8df771-888f-4edf-af8c-1c4f3306a07a] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:53 +0530
+F, [2023-03-14T13:04:53.812487 #18376] FATAL -- : [7d8df771-888f-4edf-af8c-1c4f3306a07a]   
+[7d8df771-888f-4edf-af8c-1c4f3306a07a] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[7d8df771-888f-4edf-af8c-1c4f3306a07a]   
+I, [2023-03-14T13:04:53.818941 #18376]  INFO -- : [13e67306-5496-44d9-84eb-176424a1bde1] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:53 +0530
+F, [2023-03-14T13:04:53.819441 #18376] FATAL -- : [13e67306-5496-44d9-84eb-176424a1bde1]   
+[13e67306-5496-44d9-84eb-176424a1bde1] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[13e67306-5496-44d9-84eb-176424a1bde1]   
+I, [2023-03-14T13:04:54.086263 #18376]  INFO -- : [5da5e0b9-ef93-427b-874c-185e39d36ebd] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:54 +0530
+I, [2023-03-14T13:04:54.086836 #18376]  INFO -- : [5da5e0b9-ef93-427b-874c-185e39d36ebd] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:54.087758 #18376]  INFO -- : [5da5e0b9-ef93-427b-874c-185e39d36ebd]   Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 245)
+I, [2023-03-14T13:04:54.088264 #18376]  INFO -- : [5da5e0b9-ef93-427b-874c-185e39d36ebd]   Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 750)
+I, [2023-03-14T13:04:54.088392 #18376]  INFO -- : [5da5e0b9-ef93-427b-874c-185e39d36ebd] Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 1013)
+I, [2023-03-14T13:04:54.104361 #18376]  INFO -- : [43523808-14b5-4ff0-8ab1-770572319270] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:54 +0530
+F, [2023-03-14T13:04:54.105163 #18376] FATAL -- : [43523808-14b5-4ff0-8ab1-770572319270]   
+[43523808-14b5-4ff0-8ab1-770572319270] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[43523808-14b5-4ff0-8ab1-770572319270]   
+I, [2023-03-14T13:04:54.105821 #18376]  INFO -- : [722ce9ff-f37b-48d7-99c5-3c81308cbf5c] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:54 +0530
+F, [2023-03-14T13:04:54.106367 #18376] FATAL -- : [722ce9ff-f37b-48d7-99c5-3c81308cbf5c]   
+[722ce9ff-f37b-48d7-99c5-3c81308cbf5c] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[722ce9ff-f37b-48d7-99c5-3c81308cbf5c]   
+I, [2023-03-14T13:04:54.114727 #18376]  INFO -- : [b00da6a6-3764-415b-aa4f-a12de4592efd] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:54 +0530
+F, [2023-03-14T13:04:54.115167 #18376] FATAL -- : [b00da6a6-3764-415b-aa4f-a12de4592efd]   
+[b00da6a6-3764-415b-aa4f-a12de4592efd] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[b00da6a6-3764-415b-aa4f-a12de4592efd]   
+I, [2023-03-14T13:04:57.963253 #18376]  INFO -- : [dd0cfc45-94a3-415a-8183-ccaaf643762f] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:57 +0530
+I, [2023-03-14T13:04:57.964434 #18376]  INFO -- : [dd0cfc45-94a3-415a-8183-ccaaf643762f] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:57.965566 #18376]  INFO -- : [dd0cfc45-94a3-415a-8183-ccaaf643762f]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 151)
+I, [2023-03-14T13:04:57.966654 #18376]  INFO -- : [dd0cfc45-94a3-415a-8183-ccaaf643762f]   Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 682)
+I, [2023-03-14T13:04:57.966935 #18376]  INFO -- : [dd0cfc45-94a3-415a-8183-ccaaf643762f] Completed 200 OK in 2ms (Views: 2.0ms | Allocations: 943)
+I, [2023-03-14T13:04:57.989974 #18376]  INFO -- : [a213e984-4c6b-45fc-b309-69ac24784939] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:57 +0530
+F, [2023-03-14T13:04:57.990498 #18376] FATAL -- : [a213e984-4c6b-45fc-b309-69ac24784939]   
+[a213e984-4c6b-45fc-b309-69ac24784939] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[a213e984-4c6b-45fc-b309-69ac24784939]   
+I, [2023-03-14T13:04:57.991203 #18376]  INFO -- : [7ca211ef-aa8a-4184-8ab8-487858f23749] Started GET "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css" for 127.0.0.1 at 2023-03-14 13:04:57 +0530
+F, [2023-03-14T13:04:57.991724 #18376] FATAL -- : [7ca211ef-aa8a-4184-8ab8-487858f23749]   
+[7ca211ef-aa8a-4184-8ab8-487858f23749] ActionController::RoutingError (No route matches [GET] "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css"):
+[7ca211ef-aa8a-4184-8ab8-487858f23749]   
+I, [2023-03-14T13:04:57.997967 #18376]  INFO -- : [7b8ec2cf-dd94-42dc-b59b-2ee6ad07dcb1] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:57 +0530
+F, [2023-03-14T13:04:57.998615 #18376] FATAL -- : [7b8ec2cf-dd94-42dc-b59b-2ee6ad07dcb1]   
+[7b8ec2cf-dd94-42dc-b59b-2ee6ad07dcb1] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[7b8ec2cf-dd94-42dc-b59b-2ee6ad07dcb1]   
+I, [2023-03-14T13:04:57.998196 #18376]  INFO -- : [fbd88cee-e733-4ceb-b016-5241f2b76ca0] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:57 +0530
+F, [2023-03-14T13:04:57.999979 #18376] FATAL -- : [fbd88cee-e733-4ceb-b016-5241f2b76ca0]   
+[fbd88cee-e733-4ceb-b016-5241f2b76ca0] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[fbd88cee-e733-4ceb-b016-5241f2b76ca0]   
+I, [2023-03-14T13:04:59.194929 #18376]  INFO -- : [6d3ae76a-d4f2-4b83-afe4-6bfb57e235d9] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+I, [2023-03-14T13:04:59.195565 #18376]  INFO -- : [6d3ae76a-d4f2-4b83-afe4-6bfb57e235d9] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:59.196340 #18376]  INFO -- : [6d3ae76a-d4f2-4b83-afe4-6bfb57e235d9]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 251)
+I, [2023-03-14T13:04:59.196936 #18376]  INFO -- : [6d3ae76a-d4f2-4b83-afe4-6bfb57e235d9]   Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 756)
+I, [2023-03-14T13:04:59.197068 #18376]  INFO -- : [6d3ae76a-d4f2-4b83-afe4-6bfb57e235d9] Completed 200 OK in 1ms (Views: 1.2ms | Allocations: 1017)
+I, [2023-03-14T13:04:59.214500 #18376]  INFO -- : [969f46d4-6571-4aac-89ae-ded744619e58] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+F, [2023-03-14T13:04:59.215273 #18376] FATAL -- : [969f46d4-6571-4aac-89ae-ded744619e58]   
+[969f46d4-6571-4aac-89ae-ded744619e58] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[969f46d4-6571-4aac-89ae-ded744619e58]   
+I, [2023-03-14T13:04:59.215948 #18376]  INFO -- : [3892eb41-dde2-4a98-b1b5-dcd539f598f1] Started GET "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+F, [2023-03-14T13:04:59.216319 #18376] FATAL -- : [3892eb41-dde2-4a98-b1b5-dcd539f598f1]   
+[3892eb41-dde2-4a98-b1b5-dcd539f598f1] ActionController::RoutingError (No route matches [GET] "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css"):
+[3892eb41-dde2-4a98-b1b5-dcd539f598f1]   
+I, [2023-03-14T13:04:59.223267 #18376]  INFO -- : [27647dae-ed7b-4dcd-a031-1deb0b46e380] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+F, [2023-03-14T13:04:59.224100 #18376] FATAL -- : [27647dae-ed7b-4dcd-a031-1deb0b46e380]   
+[27647dae-ed7b-4dcd-a031-1deb0b46e380] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[27647dae-ed7b-4dcd-a031-1deb0b46e380]   
+I, [2023-03-14T13:04:59.223662 #18376]  INFO -- : [0b4d500d-1794-4688-a70d-a0eca052b7f7] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+F, [2023-03-14T13:04:59.224651 #18376] FATAL -- : [0b4d500d-1794-4688-a70d-a0eca052b7f7]   
+[0b4d500d-1794-4688-a70d-a0eca052b7f7] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[0b4d500d-1794-4688-a70d-a0eca052b7f7]   
+I, [2023-03-14T13:04:59.674095 #18376]  INFO -- : [7bebcec1-cc9d-4b1e-a495-82c81fd40222] Started GET "/" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+I, [2023-03-14T13:04:59.674814 #18376]  INFO -- : [7bebcec1-cc9d-4b1e-a495-82c81fd40222] Processing by PagesController#home as HTML
+I, [2023-03-14T13:04:59.675822 #18376]  INFO -- : [7bebcec1-cc9d-4b1e-a495-82c81fd40222]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 257)
+I, [2023-03-14T13:04:59.676328 #18376]  INFO -- : [7bebcec1-cc9d-4b1e-a495-82c81fd40222]   Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 761)
+I, [2023-03-14T13:04:59.676445 #18376]  INFO -- : [7bebcec1-cc9d-4b1e-a495-82c81fd40222] Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 1018)
+I, [2023-03-14T13:04:59.689979 #18376]  INFO -- : [6dd90882-9e52-4fb7-93f3-af5e11c05596] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+F, [2023-03-14T13:04:59.690461 #18376] FATAL -- : [6dd90882-9e52-4fb7-93f3-af5e11c05596]   
+[6dd90882-9e52-4fb7-93f3-af5e11c05596] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[6dd90882-9e52-4fb7-93f3-af5e11c05596]   
+I, [2023-03-14T13:04:59.691020 #18376]  INFO -- : [a2884174-ff70-41f5-8282-c1d3dc1dd37c] Started GET "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+F, [2023-03-14T13:04:59.691525 #18376] FATAL -- : [a2884174-ff70-41f5-8282-c1d3dc1dd37c]   
+[a2884174-ff70-41f5-8282-c1d3dc1dd37c] ActionController::RoutingError (No route matches [GET] "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css"):
+[a2884174-ff70-41f5-8282-c1d3dc1dd37c]   
+I, [2023-03-14T13:04:59.696657 #18376]  INFO -- : [f5e855d0-2c46-4df8-bbe0-e7cd6a059617] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+F, [2023-03-14T13:04:59.697200 #18376] FATAL -- : [f5e855d0-2c46-4df8-bbe0-e7cd6a059617]   
+[f5e855d0-2c46-4df8-bbe0-e7cd6a059617] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[f5e855d0-2c46-4df8-bbe0-e7cd6a059617]   
+I, [2023-03-14T13:04:59.696926 #18376]  INFO -- : [c0d38bb4-45fe-4eaf-a912-aaf3743e99d5] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:04:59 +0530
+F, [2023-03-14T13:04:59.697533 #18376] FATAL -- : [c0d38bb4-45fe-4eaf-a912-aaf3743e99d5]   
+[c0d38bb4-45fe-4eaf-a912-aaf3743e99d5] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[c0d38bb4-45fe-4eaf-a912-aaf3743e99d5]   
+I, [2023-03-14T13:05:00.824147 #18376]  INFO -- : [52217a8f-914c-4b21-98c7-e1d7b4e63876] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:00 +0530
+I, [2023-03-14T13:05:00.824822 #18376]  INFO -- : [52217a8f-914c-4b21-98c7-e1d7b4e63876] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:00.826125 #18376]  INFO -- : [52217a8f-914c-4b21-98c7-e1d7b4e63876]   Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 248)
+I, [2023-03-14T13:05:00.826816 #18376]  INFO -- : [52217a8f-914c-4b21-98c7-e1d7b4e63876]   Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 752)
+I, [2023-03-14T13:05:00.826940 #18376]  INFO -- : [52217a8f-914c-4b21-98c7-e1d7b4e63876] Completed 200 OK in 2ms (Views: 1.8ms | Allocations: 1009)
+I, [2023-03-14T13:05:00.841083 #18376]  INFO -- : [0a646a94-e1c6-43cb-bfda-5ae504675733] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:00 +0530
+F, [2023-03-14T13:05:00.841626 #18376] FATAL -- : [0a646a94-e1c6-43cb-bfda-5ae504675733]   
+[0a646a94-e1c6-43cb-bfda-5ae504675733] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[0a646a94-e1c6-43cb-bfda-5ae504675733]   
+I, [2023-03-14T13:05:00.842630 #18376]  INFO -- : [80c777c2-a463-4904-a6d5-8247ffcc6789] Started GET "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css" for 127.0.0.1 at 2023-03-14 13:05:00 +0530
+F, [2023-03-14T13:05:00.843010 #18376] FATAL -- : [80c777c2-a463-4904-a6d5-8247ffcc6789]   
+[80c777c2-a463-4904-a6d5-8247ffcc6789] ActionController::RoutingError (No route matches [GET] "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css"):
+[80c777c2-a463-4904-a6d5-8247ffcc6789]   
+I, [2023-03-14T13:05:00.848533 #18376]  INFO -- : [9853aab0-d966-4a10-b227-3ffea47b027a] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:00 +0530
+F, [2023-03-14T13:05:00.849159 #18376] FATAL -- : [9853aab0-d966-4a10-b227-3ffea47b027a]   
+[9853aab0-d966-4a10-b227-3ffea47b027a] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[9853aab0-d966-4a10-b227-3ffea47b027a]   
+I, [2023-03-14T13:05:00.848831 #18376]  INFO -- : [d12ffe73-05d6-4627-8e6d-997585936d6b] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:00 +0530
+F, [2023-03-14T13:05:00.849649 #18376] FATAL -- : [d12ffe73-05d6-4627-8e6d-997585936d6b]   
+[d12ffe73-05d6-4627-8e6d-997585936d6b] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[d12ffe73-05d6-4627-8e6d-997585936d6b]   
+I, [2023-03-14T13:05:01.083906 #18376]  INFO -- : [97daf57c-586b-4bd6-8313-dd519c0de448] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:01 +0530
+I, [2023-03-14T13:05:01.084463 #18376]  INFO -- : [97daf57c-586b-4bd6-8313-dd519c0de448] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:01.085310 #18376]  INFO -- : [97daf57c-586b-4bd6-8313-dd519c0de448]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 239)
+I, [2023-03-14T13:05:01.086197 #18376]  INFO -- : [97daf57c-586b-4bd6-8313-dd519c0de448]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 743)
+I, [2023-03-14T13:05:01.086331 #18376]  INFO -- : [97daf57c-586b-4bd6-8313-dd519c0de448] Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 1000)
+I, [2023-03-14T13:05:01.098554 #18376]  INFO -- : [a7bf35e2-8786-4524-9540-cd165b9c56f3] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:01 +0530
+F, [2023-03-14T13:05:01.098992 #18376] FATAL -- : [a7bf35e2-8786-4524-9540-cd165b9c56f3]   
+[a7bf35e2-8786-4524-9540-cd165b9c56f3] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[a7bf35e2-8786-4524-9540-cd165b9c56f3]   
+I, [2023-03-14T13:05:01.099853 #18376]  INFO -- : [61b010dc-6bb3-4717-8ada-26a4fcf338d4] Started GET "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css" for 127.0.0.1 at 2023-03-14 13:05:01 +0530
+F, [2023-03-14T13:05:01.100232 #18376] FATAL -- : [61b010dc-6bb3-4717-8ada-26a4fcf338d4]   
+[61b010dc-6bb3-4717-8ada-26a4fcf338d4] ActionController::RoutingError (No route matches [GET] "/assets/application-86447c7b0b7308b023ea43d8d8a51315ec7b042acdb71342330e4fef982483f1.css"):
+[61b010dc-6bb3-4717-8ada-26a4fcf338d4]   
+I, [2023-03-14T13:05:01.105877 #18376]  INFO -- : [c65c575a-4782-473c-86b7-c81e34e6ee65] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:01 +0530
+F, [2023-03-14T13:05:01.106607 #18376] FATAL -- : [c65c575a-4782-473c-86b7-c81e34e6ee65]   
+[c65c575a-4782-473c-86b7-c81e34e6ee65] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[c65c575a-4782-473c-86b7-c81e34e6ee65]   
+I, [2023-03-14T13:05:01.106176 #18376]  INFO -- : [d4023771-e5e7-4fbd-a239-eccf6d83ab7f] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:01 +0530
+F, [2023-03-14T13:05:01.106973 #18376] FATAL -- : [d4023771-e5e7-4fbd-a239-eccf6d83ab7f]   
+[d4023771-e5e7-4fbd-a239-eccf6d83ab7f] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[d4023771-e5e7-4fbd-a239-eccf6d83ab7f]   
+I, [2023-03-14T13:05:49.815791 #18376]  INFO -- : [e534df46-a547-40fe-b90c-a495ae2249c5] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:49 +0530
+I, [2023-03-14T13:05:49.816510 #18376]  INFO -- : [e534df46-a547-40fe-b90c-a495ae2249c5] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:49.817782 #18376]  INFO -- : [e534df46-a547-40fe-b90c-a495ae2249c5]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 242)
+I, [2023-03-14T13:05:49.818726 #18376]  INFO -- : [e534df46-a547-40fe-b90c-a495ae2249c5]   Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 746)
+I, [2023-03-14T13:05:49.818898 #18376]  INFO -- : [e534df46-a547-40fe-b90c-a495ae2249c5] Completed 200 OK in 2ms (Views: 1.9ms | Allocations: 1003)
+I, [2023-03-14T13:05:49.852526 #18376]  INFO -- : [05813548-52e8-4a96-a2d4-2f0721b51f78] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:49 +0530
+F, [2023-03-14T13:05:49.853226 #18376] FATAL -- : [05813548-52e8-4a96-a2d4-2f0721b51f78]   
+[05813548-52e8-4a96-a2d4-2f0721b51f78] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[05813548-52e8-4a96-a2d4-2f0721b51f78]   
+I, [2023-03-14T13:05:49.865203 #18376]  INFO -- : [64c70881-ce7b-46c2-8aa4-792058643788] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:49 +0530
+F, [2023-03-14T13:05:49.865717 #18376] FATAL -- : [64c70881-ce7b-46c2-8aa4-792058643788]   
+[64c70881-ce7b-46c2-8aa4-792058643788] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[64c70881-ce7b-46c2-8aa4-792058643788]   
+I, [2023-03-14T13:05:49.866209 #18376]  INFO -- : [98982649-0b2c-4dbc-aff7-b24bf04d76be] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:49 +0530
+F, [2023-03-14T13:05:49.866410 #18376] FATAL -- : [98982649-0b2c-4dbc-aff7-b24bf04d76be]   
+[98982649-0b2c-4dbc-aff7-b24bf04d76be] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[98982649-0b2c-4dbc-aff7-b24bf04d76be]   
+I, [2023-03-14T13:05:50.979097 #18376]  INFO -- : [69401648-e546-49f7-b5e6-f0aec90014d5] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:50 +0530
+I, [2023-03-14T13:05:50.979890 #18376]  INFO -- : [69401648-e546-49f7-b5e6-f0aec90014d5] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:50.981239 #18376]  INFO -- : [69401648-e546-49f7-b5e6-f0aec90014d5]   Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 263)
+I, [2023-03-14T13:05:50.981813 #18376]  INFO -- : [69401648-e546-49f7-b5e6-f0aec90014d5]   Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 767)
+I, [2023-03-14T13:05:50.981955 #18376]  INFO -- : [69401648-e546-49f7-b5e6-f0aec90014d5] Completed 200 OK in 2ms (Views: 1.8ms | Allocations: 1024)
+I, [2023-03-14T13:05:51.006881 #18376]  INFO -- : [c9d9fda4-6e91-4f96-aa7e-d1c99f992721] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:51 +0530
+F, [2023-03-14T13:05:51.008615 #18376] FATAL -- : [c9d9fda4-6e91-4f96-aa7e-d1c99f992721]   
+[c9d9fda4-6e91-4f96-aa7e-d1c99f992721] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[c9d9fda4-6e91-4f96-aa7e-d1c99f992721]   
+I, [2023-03-14T13:05:51.009668 #18376]  INFO -- : [1b6e9284-1b30-419c-a350-3f0c677af609] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:51 +0530
+F, [2023-03-14T13:05:51.010528 #18376] FATAL -- : [1b6e9284-1b30-419c-a350-3f0c677af609]   
+[1b6e9284-1b30-419c-a350-3f0c677af609] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[1b6e9284-1b30-419c-a350-3f0c677af609]   
+I, [2023-03-14T13:05:51.020405 #18376]  INFO -- : [f41e6ae7-77eb-4f50-8c66-1a976a4f84eb] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:51 +0530
+F, [2023-03-14T13:05:51.020892 #18376] FATAL -- : [f41e6ae7-77eb-4f50-8c66-1a976a4f84eb]   
+[f41e6ae7-77eb-4f50-8c66-1a976a4f84eb] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[f41e6ae7-77eb-4f50-8c66-1a976a4f84eb]   
+I, [2023-03-14T13:05:51.055866 #18376]  INFO -- : [2a62578b-18fa-4692-bc83-59a2e50d7fb1] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:51 +0530
+F, [2023-03-14T13:05:51.056522 #18376] FATAL -- : [2a62578b-18fa-4692-bc83-59a2e50d7fb1]   
+[2a62578b-18fa-4692-bc83-59a2e50d7fb1] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[2a62578b-18fa-4692-bc83-59a2e50d7fb1]   
+I, [2023-03-14T13:05:52.167138 #18376]  INFO -- : [b3c34f88-4e30-4c41-ab59-116f0cafb178] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+I, [2023-03-14T13:05:52.168670 #18376]  INFO -- : [b3c34f88-4e30-4c41-ab59-116f0cafb178] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:52.171215 #18376]  INFO -- : [b3c34f88-4e30-4c41-ab59-116f0cafb178]   Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 257)
+I, [2023-03-14T13:05:52.173050 #18376]  INFO -- : [b3c34f88-4e30-4c41-ab59-116f0cafb178]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 761)
+I, [2023-03-14T13:05:52.173330 #18376]  INFO -- : [b3c34f88-4e30-4c41-ab59-116f0cafb178] Completed 200 OK in 5ms (Views: 4.0ms | Allocations: 1018)
+I, [2023-03-14T13:05:52.192586 #18376]  INFO -- : [679630d4-25e0-4fb7-98e8-ca5c7d9ed773] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+F, [2023-03-14T13:05:52.193205 #18376] FATAL -- : [679630d4-25e0-4fb7-98e8-ca5c7d9ed773]   
+[679630d4-25e0-4fb7-98e8-ca5c7d9ed773] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[679630d4-25e0-4fb7-98e8-ca5c7d9ed773]   
+I, [2023-03-14T13:05:52.194172 #18376]  INFO -- : [dff38262-5046-408f-8b3e-67613d6847af] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+F, [2023-03-14T13:05:52.194618 #18376] FATAL -- : [dff38262-5046-408f-8b3e-67613d6847af]   
+[dff38262-5046-408f-8b3e-67613d6847af] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[dff38262-5046-408f-8b3e-67613d6847af]   
+I, [2023-03-14T13:05:52.202883 #18376]  INFO -- : [1f0327d4-cc3b-4939-bf98-5b0c9fbe59fb] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+F, [2023-03-14T13:05:52.203533 #18376] FATAL -- : [1f0327d4-cc3b-4939-bf98-5b0c9fbe59fb]   
+[1f0327d4-cc3b-4939-bf98-5b0c9fbe59fb] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[1f0327d4-cc3b-4939-bf98-5b0c9fbe59fb]   
+I, [2023-03-14T13:05:52.248564 #18376]  INFO -- : [a691c2b6-9900-41bf-a2f5-a3977a41d8bf] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+F, [2023-03-14T13:05:52.249009 #18376] FATAL -- : [a691c2b6-9900-41bf-a2f5-a3977a41d8bf]   
+[a691c2b6-9900-41bf-a2f5-a3977a41d8bf] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[a691c2b6-9900-41bf-a2f5-a3977a41d8bf]   
+I, [2023-03-14T13:05:52.551712 #18376]  INFO -- : [82f1b5cf-92de-4a30-895e-7c77849e3bb3] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+I, [2023-03-14T13:05:52.552333 #18376]  INFO -- : [82f1b5cf-92de-4a30-895e-7c77849e3bb3] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:52.553222 #18376]  INFO -- : [82f1b5cf-92de-4a30-895e-7c77849e3bb3]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 260)
+I, [2023-03-14T13:05:52.553970 #18376]  INFO -- : [82f1b5cf-92de-4a30-895e-7c77849e3bb3]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 764)
+I, [2023-03-14T13:05:52.554176 #18376]  INFO -- : [82f1b5cf-92de-4a30-895e-7c77849e3bb3] Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 1021)
+I, [2023-03-14T13:05:52.574235 #18376]  INFO -- : [7add872f-0674-4f61-b16b-bf4cdc71c59f] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+F, [2023-03-14T13:05:52.574665 #18376] FATAL -- : [7add872f-0674-4f61-b16b-bf4cdc71c59f]   
+[7add872f-0674-4f61-b16b-bf4cdc71c59f] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[7add872f-0674-4f61-b16b-bf4cdc71c59f]   
+I, [2023-03-14T13:05:52.575469 #18376]  INFO -- : [6c11a3ab-edb0-401d-9840-132cdbd4b8fa] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+F, [2023-03-14T13:05:52.575857 #18376] FATAL -- : [6c11a3ab-edb0-401d-9840-132cdbd4b8fa]   
+[6c11a3ab-edb0-401d-9840-132cdbd4b8fa] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[6c11a3ab-edb0-401d-9840-132cdbd4b8fa]   
+I, [2023-03-14T13:05:52.590191 #18376]  INFO -- : [3253237c-9c44-404c-981f-dcc3eac2d42f] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+F, [2023-03-14T13:05:52.590700 #18376] FATAL -- : [3253237c-9c44-404c-981f-dcc3eac2d42f]   
+[3253237c-9c44-404c-981f-dcc3eac2d42f] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[3253237c-9c44-404c-981f-dcc3eac2d42f]   
+I, [2023-03-14T13:05:52.618173 #18376]  INFO -- : [6d6f3c69-1753-4182-a956-1fd7984eaf57] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:52 +0530
+F, [2023-03-14T13:05:52.618589 #18376] FATAL -- : [6d6f3c69-1753-4182-a956-1fd7984eaf57]   
+[6d6f3c69-1753-4182-a956-1fd7984eaf57] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[6d6f3c69-1753-4182-a956-1fd7984eaf57]   
+I, [2023-03-14T13:05:53.786477 #18376]  INFO -- : [ac8f6a78-7a05-4238-bb8a-ae1ae4bc3d34] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:53 +0530
+I, [2023-03-14T13:05:53.787262 #18376]  INFO -- : [ac8f6a78-7a05-4238-bb8a-ae1ae4bc3d34] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:53.788202 #18376]  INFO -- : [ac8f6a78-7a05-4238-bb8a-ae1ae4bc3d34]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 248)
+I, [2023-03-14T13:05:53.788777 #18376]  INFO -- : [ac8f6a78-7a05-4238-bb8a-ae1ae4bc3d34]   Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 752)
+I, [2023-03-14T13:05:53.788925 #18376]  INFO -- : [ac8f6a78-7a05-4238-bb8a-ae1ae4bc3d34] Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 1009)
+I, [2023-03-14T13:05:53.810937 #18376]  INFO -- : [e4262ea4-f220-4ff8-a7d7-3ffddde36aaf] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:53 +0530
+F, [2023-03-14T13:05:53.811469 #18376] FATAL -- : [e4262ea4-f220-4ff8-a7d7-3ffddde36aaf]   
+[e4262ea4-f220-4ff8-a7d7-3ffddde36aaf] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[e4262ea4-f220-4ff8-a7d7-3ffddde36aaf]   
+I, [2023-03-14T13:05:53.825816 #18376]  INFO -- : [c34a776a-0bb7-4bc9-aa33-5b7909ac1d2a] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:53 +0530
+F, [2023-03-14T13:05:53.826477 #18376] FATAL -- : [c34a776a-0bb7-4bc9-aa33-5b7909ac1d2a]   
+[c34a776a-0bb7-4bc9-aa33-5b7909ac1d2a] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[c34a776a-0bb7-4bc9-aa33-5b7909ac1d2a]   
+I, [2023-03-14T13:05:53.826970 #18376]  INFO -- : [2e85e9a0-8476-4f70-83c9-fbe551267902] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:53 +0530
+F, [2023-03-14T13:05:53.827543 #18376] FATAL -- : [2e85e9a0-8476-4f70-83c9-fbe551267902]   
+[2e85e9a0-8476-4f70-83c9-fbe551267902] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[2e85e9a0-8476-4f70-83c9-fbe551267902]   
+I, [2023-03-14T13:05:53.862625 #18376]  INFO -- : [335fbd72-1fc4-4d34-8fd7-5f8f9ac45371] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:53 +0530
+F, [2023-03-14T13:05:53.863301 #18376] FATAL -- : [335fbd72-1fc4-4d34-8fd7-5f8f9ac45371]   
+[335fbd72-1fc4-4d34-8fd7-5f8f9ac45371] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[335fbd72-1fc4-4d34-8fd7-5f8f9ac45371]   
+I, [2023-03-14T13:05:53.947569 #18376]  INFO -- : [ecb91c71-0058-4f37-b9f0-36c80de54450] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:53 +0530
+I, [2023-03-14T13:05:53.948419 #18376]  INFO -- : [ecb91c71-0058-4f37-b9f0-36c80de54450] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:53.949361 #18376]  INFO -- : [ecb91c71-0058-4f37-b9f0-36c80de54450]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 251)
+I, [2023-03-14T13:05:53.950031 #18376]  INFO -- : [ecb91c71-0058-4f37-b9f0-36c80de54450]   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 755)
+I, [2023-03-14T13:05:53.950184 #18376]  INFO -- : [ecb91c71-0058-4f37-b9f0-36c80de54450] Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 1013)
+I, [2023-03-14T13:05:53.970819 #18376]  INFO -- : [33723ca8-fdc2-425e-8d96-ee2faf9866a2] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:53 +0530
+F, [2023-03-14T13:05:53.971903 #18376] FATAL -- : [33723ca8-fdc2-425e-8d96-ee2faf9866a2]   
+[33723ca8-fdc2-425e-8d96-ee2faf9866a2] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[33723ca8-fdc2-425e-8d96-ee2faf9866a2]   
+I, [2023-03-14T13:05:53.971273 #18376]  INFO -- : [2d8b4efd-beb4-48ba-8565-da8bb7489cff] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:53 +0530
+F, [2023-03-14T13:05:53.972722 #18376] FATAL -- : [2d8b4efd-beb4-48ba-8565-da8bb7489cff]   
+[2d8b4efd-beb4-48ba-8565-da8bb7489cff] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[2d8b4efd-beb4-48ba-8565-da8bb7489cff]   
+I, [2023-03-14T13:05:53.983332 #18376]  INFO -- : [0e6cfaa0-a24d-4288-88db-08777ff59a99] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:53 +0530
+F, [2023-03-14T13:05:53.983721 #18376] FATAL -- : [0e6cfaa0-a24d-4288-88db-08777ff59a99]   
+[0e6cfaa0-a24d-4288-88db-08777ff59a99] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[0e6cfaa0-a24d-4288-88db-08777ff59a99]   
+I, [2023-03-14T13:05:54.026278 #18376]  INFO -- : [f5354437-974c-4243-989d-12de09ffde69] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.026861 #18376] FATAL -- : [f5354437-974c-4243-989d-12de09ffde69]   
+[f5354437-974c-4243-989d-12de09ffde69] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[f5354437-974c-4243-989d-12de09ffde69]   
+I, [2023-03-14T13:05:54.247149 #18376]  INFO -- : [4c49b7d5-a505-4852-9fd3-24dd8558bd73] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+I, [2023-03-14T13:05:54.247614 #18376]  INFO -- : [4c49b7d5-a505-4852-9fd3-24dd8558bd73] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:54.248450 #18376]  INFO -- : [4c49b7d5-a505-4852-9fd3-24dd8558bd73]   Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 251)
+I, [2023-03-14T13:05:54.248955 #18376]  INFO -- : [4c49b7d5-a505-4852-9fd3-24dd8558bd73]   Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 755)
+I, [2023-03-14T13:05:54.249067 #18376]  INFO -- : [4c49b7d5-a505-4852-9fd3-24dd8558bd73] Completed 200 OK in 1ms (Views: 1.2ms | Allocations: 1012)
+I, [2023-03-14T13:05:54.273259 #18376]  INFO -- : [5ce7d629-7844-4966-a1b6-91a047cbd499] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.273983 #18376] FATAL -- : [5ce7d629-7844-4966-a1b6-91a047cbd499]   
+[5ce7d629-7844-4966-a1b6-91a047cbd499] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[5ce7d629-7844-4966-a1b6-91a047cbd499]   
+I, [2023-03-14T13:05:54.274659 #18376]  INFO -- : [c6f01073-a564-46bb-8967-1e5df7247d8d] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.275305 #18376] FATAL -- : [c6f01073-a564-46bb-8967-1e5df7247d8d]   
+[c6f01073-a564-46bb-8967-1e5df7247d8d] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[c6f01073-a564-46bb-8967-1e5df7247d8d]   
+I, [2023-03-14T13:05:54.283827 #18376]  INFO -- : [567cc415-e0f3-4d54-a074-f8d1f5fd5d72] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.284277 #18376] FATAL -- : [567cc415-e0f3-4d54-a074-f8d1f5fd5d72]   
+[567cc415-e0f3-4d54-a074-f8d1f5fd5d72] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[567cc415-e0f3-4d54-a074-f8d1f5fd5d72]   
+I, [2023-03-14T13:05:54.317084 #18376]  INFO -- : [82802700-27ea-42e7-bae0-7d59fbe03ed2] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.317494 #18376] FATAL -- : [82802700-27ea-42e7-bae0-7d59fbe03ed2]   
+[82802700-27ea-42e7-bae0-7d59fbe03ed2] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[82802700-27ea-42e7-bae0-7d59fbe03ed2]   
+I, [2023-03-14T13:05:54.429994 #18376]  INFO -- : [980c6670-c0e8-4f68-a52d-33909b63df5c] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+I, [2023-03-14T13:05:54.430681 #18376]  INFO -- : [980c6670-c0e8-4f68-a52d-33909b63df5c] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:54.431835 #18376]  INFO -- : [980c6670-c0e8-4f68-a52d-33909b63df5c]   Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 263)
+I, [2023-03-14T13:05:54.432490 #18376]  INFO -- : [980c6670-c0e8-4f68-a52d-33909b63df5c]   Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 767)
+I, [2023-03-14T13:05:54.432688 #18376]  INFO -- : [980c6670-c0e8-4f68-a52d-33909b63df5c] Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 1024)
+I, [2023-03-14T13:05:54.450957 #18376]  INFO -- : [27e44aa5-1758-4bc5-b608-1cbffaf2d010] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.451769 #18376] FATAL -- : [27e44aa5-1758-4bc5-b608-1cbffaf2d010]   
+[27e44aa5-1758-4bc5-b608-1cbffaf2d010] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[27e44aa5-1758-4bc5-b608-1cbffaf2d010]   
+I, [2023-03-14T13:05:54.451326 #18376]  INFO -- : [36998248-ddcb-40a0-9c39-79383e2dbcbc] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.452199 #18376] FATAL -- : [36998248-ddcb-40a0-9c39-79383e2dbcbc]   
+[36998248-ddcb-40a0-9c39-79383e2dbcbc] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[36998248-ddcb-40a0-9c39-79383e2dbcbc]   
+I, [2023-03-14T13:05:54.463746 #18376]  INFO -- : [ae33430f-8aea-42b0-aa71-9bd6878aeb6d] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.464218 #18376] FATAL -- : [ae33430f-8aea-42b0-aa71-9bd6878aeb6d]   
+[ae33430f-8aea-42b0-aa71-9bd6878aeb6d] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[ae33430f-8aea-42b0-aa71-9bd6878aeb6d]   
+I, [2023-03-14T13:05:54.498144 #18376]  INFO -- : [1a1b3b8c-f710-43fb-a812-95bbe00e90d2] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.498610 #18376] FATAL -- : [1a1b3b8c-f710-43fb-a812-95bbe00e90d2]   
+[1a1b3b8c-f710-43fb-a812-95bbe00e90d2] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[1a1b3b8c-f710-43fb-a812-95bbe00e90d2]   
+I, [2023-03-14T13:05:54.566912 #18376]  INFO -- : [5c86afc2-8289-438a-8832-eea7f8285e40] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+I, [2023-03-14T13:05:54.567466 #18376]  INFO -- : [5c86afc2-8289-438a-8832-eea7f8285e40] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:54.568276 #18376]  INFO -- : [5c86afc2-8289-438a-8832-eea7f8285e40]   Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 260)
+I, [2023-03-14T13:05:54.568948 #18376]  INFO -- : [5c86afc2-8289-438a-8832-eea7f8285e40]   Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 764)
+I, [2023-03-14T13:05:54.569084 #18376]  INFO -- : [5c86afc2-8289-438a-8832-eea7f8285e40] Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 1021)
+I, [2023-03-14T13:05:54.586763 #18376]  INFO -- : [8ee0bcc2-0dc2-4cc1-ae79-6e200c663076] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.587737 #18376] FATAL -- : [8ee0bcc2-0dc2-4cc1-ae79-6e200c663076]   
+[8ee0bcc2-0dc2-4cc1-ae79-6e200c663076] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[8ee0bcc2-0dc2-4cc1-ae79-6e200c663076]   
+I, [2023-03-14T13:05:54.587134 #18376]  INFO -- : [9142079f-ffa9-45fd-8098-c1c0b02e21b4] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.588279 #18376] FATAL -- : [9142079f-ffa9-45fd-8098-c1c0b02e21b4]   
+[9142079f-ffa9-45fd-8098-c1c0b02e21b4] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[9142079f-ffa9-45fd-8098-c1c0b02e21b4]   
+I, [2023-03-14T13:05:54.601898 #18376]  INFO -- : [161bfded-a600-48d8-8a53-6de8a9b90a4c] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.602323 #18376] FATAL -- : [161bfded-a600-48d8-8a53-6de8a9b90a4c]   
+[161bfded-a600-48d8-8a53-6de8a9b90a4c] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[161bfded-a600-48d8-8a53-6de8a9b90a4c]   
+I, [2023-03-14T13:05:54.634082 #18376]  INFO -- : [bfb36be4-ab8a-443a-9d0f-676db05a2ee3] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.635011 #18376] FATAL -- : [bfb36be4-ab8a-443a-9d0f-676db05a2ee3]   
+[bfb36be4-ab8a-443a-9d0f-676db05a2ee3] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[bfb36be4-ab8a-443a-9d0f-676db05a2ee3]   
+I, [2023-03-14T13:05:54.719519 #18376]  INFO -- : [a6444309-99b2-4535-a731-298f2f647b9b] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+I, [2023-03-14T13:05:54.720589 #18376]  INFO -- : [a6444309-99b2-4535-a731-298f2f647b9b] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:54.721476 #18376]  INFO -- : [a6444309-99b2-4535-a731-298f2f647b9b]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 239)
+I, [2023-03-14T13:05:54.722406 #18376]  INFO -- : [a6444309-99b2-4535-a731-298f2f647b9b]   Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 743)
+I, [2023-03-14T13:05:54.722566 #18376]  INFO -- : [a6444309-99b2-4535-a731-298f2f647b9b] Completed 200 OK in 2ms (Views: 1.7ms | Allocations: 1000)
+I, [2023-03-14T13:05:54.741832 #18376]  INFO -- : [a70fb754-3622-46ab-8cfc-340f06b9f991] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.742735 #18376] FATAL -- : [a70fb754-3622-46ab-8cfc-340f06b9f991]   
+[a70fb754-3622-46ab-8cfc-340f06b9f991] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[a70fb754-3622-46ab-8cfc-340f06b9f991]   
+I, [2023-03-14T13:05:54.742251 #18376]  INFO -- : [4ff800e3-f85c-4360-a62a-750b4d62734b] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.743315 #18376] FATAL -- : [4ff800e3-f85c-4360-a62a-750b4d62734b]   
+[4ff800e3-f85c-4360-a62a-750b4d62734b] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[4ff800e3-f85c-4360-a62a-750b4d62734b]   
+I, [2023-03-14T13:05:54.754569 #18376]  INFO -- : [235d97af-94c3-46b4-84e0-582f247504f1] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.755110 #18376] FATAL -- : [235d97af-94c3-46b4-84e0-582f247504f1]   
+[235d97af-94c3-46b4-84e0-582f247504f1] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[235d97af-94c3-46b4-84e0-582f247504f1]   
+I, [2023-03-14T13:05:54.789177 #18376]  INFO -- : [899aed56-d3a6-4fdc-ad10-eb7a6da0306f] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.789579 #18376] FATAL -- : [899aed56-d3a6-4fdc-ad10-eb7a6da0306f]   
+[899aed56-d3a6-4fdc-ad10-eb7a6da0306f] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[899aed56-d3a6-4fdc-ad10-eb7a6da0306f]   
+I, [2023-03-14T13:05:54.866358 #18376]  INFO -- : [35cc7aa7-bc34-4e2d-8b8e-f73428907ac1] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+I, [2023-03-14T13:05:54.866838 #18376]  INFO -- : [35cc7aa7-bc34-4e2d-8b8e-f73428907ac1] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:54.867575 #18376]  INFO -- : [35cc7aa7-bc34-4e2d-8b8e-f73428907ac1]   Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 263)
+I, [2023-03-14T13:05:54.868136 #18376]  INFO -- : [35cc7aa7-bc34-4e2d-8b8e-f73428907ac1]   Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 767)
+I, [2023-03-14T13:05:54.868328 #18376]  INFO -- : [35cc7aa7-bc34-4e2d-8b8e-f73428907ac1] Completed 200 OK in 1ms (Views: 1.2ms | Allocations: 1024)
+I, [2023-03-14T13:05:54.892809 #18376]  INFO -- : [296edcb0-55f7-49c0-9099-b6a5c87a1310] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.893629 #18376] FATAL -- : [296edcb0-55f7-49c0-9099-b6a5c87a1310]   
+[296edcb0-55f7-49c0-9099-b6a5c87a1310] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[296edcb0-55f7-49c0-9099-b6a5c87a1310]   
+I, [2023-03-14T13:05:54.893168 #18376]  INFO -- : [c5621cfd-a48c-4145-a587-d766198136df] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.894195 #18376] FATAL -- : [c5621cfd-a48c-4145-a587-d766198136df]   
+[c5621cfd-a48c-4145-a587-d766198136df] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[c5621cfd-a48c-4145-a587-d766198136df]   
+I, [2023-03-14T13:05:54.903418 #18376]  INFO -- : [fe62d481-7b8e-498e-a12f-dedf88e88c42] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.903826 #18376] FATAL -- : [fe62d481-7b8e-498e-a12f-dedf88e88c42]   
+[fe62d481-7b8e-498e-a12f-dedf88e88c42] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[fe62d481-7b8e-498e-a12f-dedf88e88c42]   
+I, [2023-03-14T13:05:54.936059 #18376]  INFO -- : [a62f2f2c-29f3-4d3e-abd1-cefd653b5065] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:54 +0530
+F, [2023-03-14T13:05:54.936611 #18376] FATAL -- : [a62f2f2c-29f3-4d3e-abd1-cefd653b5065]   
+[a62f2f2c-29f3-4d3e-abd1-cefd653b5065] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[a62f2f2c-29f3-4d3e-abd1-cefd653b5065]   
+I, [2023-03-14T13:05:55.028626 #18376]  INFO -- : [ac16b795-dcc6-4418-a80f-1677ce9c5e1a] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+I, [2023-03-14T13:05:55.029298 #18376]  INFO -- : [ac16b795-dcc6-4418-a80f-1677ce9c5e1a] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:55.030299 #18376]  INFO -- : [ac16b795-dcc6-4418-a80f-1677ce9c5e1a]   Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 260)
+I, [2023-03-14T13:05:55.031021 #18376]  INFO -- : [ac16b795-dcc6-4418-a80f-1677ce9c5e1a]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 764)
+I, [2023-03-14T13:05:55.031170 #18376]  INFO -- : [ac16b795-dcc6-4418-a80f-1677ce9c5e1a] Completed 200 OK in 2ms (Views: 1.6ms | Allocations: 1022)
+I, [2023-03-14T13:05:55.053018 #18376]  INFO -- : [d63b2bf3-5c14-4d71-8879-781e7cb30114] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+F, [2023-03-14T13:05:55.054272 #18376] FATAL -- : [d63b2bf3-5c14-4d71-8879-781e7cb30114]   
+[d63b2bf3-5c14-4d71-8879-781e7cb30114] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[d63b2bf3-5c14-4d71-8879-781e7cb30114]   
+I, [2023-03-14T13:05:55.053657 #18376]  INFO -- : [bdeb7a70-2106-4d26-ad9f-c2c52614c2dd] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+F, [2023-03-14T13:05:55.054987 #18376] FATAL -- : [bdeb7a70-2106-4d26-ad9f-c2c52614c2dd]   
+[bdeb7a70-2106-4d26-ad9f-c2c52614c2dd] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[bdeb7a70-2106-4d26-ad9f-c2c52614c2dd]   
+I, [2023-03-14T13:05:55.065670 #18376]  INFO -- : [0370aa30-53ec-4b15-9dad-cff0cf1533f6] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+F, [2023-03-14T13:05:55.065985 #18376] FATAL -- : [0370aa30-53ec-4b15-9dad-cff0cf1533f6]   
+[0370aa30-53ec-4b15-9dad-cff0cf1533f6] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[0370aa30-53ec-4b15-9dad-cff0cf1533f6]   
+I, [2023-03-14T13:05:55.098410 #18376]  INFO -- : [4ef175f7-69fa-47a7-8e27-c4ccf46b7d2b] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+F, [2023-03-14T13:05:55.098886 #18376] FATAL -- : [4ef175f7-69fa-47a7-8e27-c4ccf46b7d2b]   
+[4ef175f7-69fa-47a7-8e27-c4ccf46b7d2b] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[4ef175f7-69fa-47a7-8e27-c4ccf46b7d2b]   
+I, [2023-03-14T13:05:55.180773 #18376]  INFO -- : [f749d7a0-a231-4de0-92fb-76f49c6c39f9] Started GET "/" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+I, [2023-03-14T13:05:55.181461 #18376]  INFO -- : [f749d7a0-a231-4de0-92fb-76f49c6c39f9] Processing by PagesController#home as HTML
+I, [2023-03-14T13:05:55.182348 #18376]  INFO -- : [f749d7a0-a231-4de0-92fb-76f49c6c39f9]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 254)
+I, [2023-03-14T13:05:55.182971 #18376]  INFO -- : [f749d7a0-a231-4de0-92fb-76f49c6c39f9]   Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 758)
+I, [2023-03-14T13:05:55.183088 #18376]  INFO -- : [f749d7a0-a231-4de0-92fb-76f49c6c39f9] Completed 200 OK in 2ms (Views: 1.4ms | Allocations: 1015)
+I, [2023-03-14T13:05:55.202616 #18376]  INFO -- : [a9a9dc98-1a38-4e01-a15e-8c1f9f47096e] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+F, [2023-03-14T13:05:55.203790 #18376] FATAL -- : [a9a9dc98-1a38-4e01-a15e-8c1f9f47096e]   
+[a9a9dc98-1a38-4e01-a15e-8c1f9f47096e] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[a9a9dc98-1a38-4e01-a15e-8c1f9f47096e]   
+I, [2023-03-14T13:05:55.202952 #18376]  INFO -- : [49d19f6f-2177-4fbc-acac-4f7433eb30db] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+F, [2023-03-14T13:05:55.204287 #18376] FATAL -- : [49d19f6f-2177-4fbc-acac-4f7433eb30db]   
+[49d19f6f-2177-4fbc-acac-4f7433eb30db] ActionController::RoutingError (No route matches [GET] "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js"):
+[49d19f6f-2177-4fbc-acac-4f7433eb30db]   
+I, [2023-03-14T13:05:55.231721 #18376]  INFO -- : [5120af04-344c-4780-8bca-be1a4665602a] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+F, [2023-03-14T13:05:55.232157 #18376] FATAL -- : [5120af04-344c-4780-8bca-be1a4665602a]   
+[5120af04-344c-4780-8bca-be1a4665602a] ActionController::RoutingError (No route matches [GET] "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png"):
+[5120af04-344c-4780-8bca-be1a4665602a]   
+I, [2023-03-14T13:05:55.270724 #18376]  INFO -- : [c5c4fdfc-902f-4d47-91aa-5953f6bd6c8f] Started GET "/favicon.ico" for 127.0.0.1 at 2023-03-14 13:05:55 +0530
+F, [2023-03-14T13:05:55.271102 #18376] FATAL -- : [c5c4fdfc-902f-4d47-91aa-5953f6bd6c8f]   
+[c5c4fdfc-902f-4d47-91aa-5953f6bd6c8f] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[c5c4fdfc-902f-4d47-91aa-5953f6bd6c8f]   
+I, [2023-03-14T13:05:59.180264 #18376]  INFO -- : [98ce1aa4-25b5-4f0d-b0fb-a9c969e11e00] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:05:59 +0530
+F, [2023-03-14T13:05:59.181148 #18376] FATAL -- : [98ce1aa4-25b5-4f0d-b0fb-a9c969e11e00]   
+[98ce1aa4-25b5-4f0d-b0fb-a9c969e11e00] ActionController::RoutingError (No route matches [GET] "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css"):
+[98ce1aa4-25b5-4f0d-b0fb-a9c969e11e00]   
+W, [2023-03-14T13:07:02.613012 #18962]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-03-14T13:07:08.635949 #19135]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-03-14T13:07:12.402135 #19135]  INFO -- : [85f489db-d006-4f27-b351-2c2ef06c0625] Started GET "/" for 127.0.0.1 at 2023-03-14 13:07:12 +0530
+I, [2023-03-14T13:07:12.403587 #19135]  INFO -- : [85f489db-d006-4f27-b351-2c2ef06c0625] Processing by PagesController#home as HTML
+I, [2023-03-14T13:07:12.409376 #19135]  INFO -- : [85f489db-d006-4f27-b351-2c2ef06c0625]   Rendered pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 907)
+I, [2023-03-14T13:07:12.410956 #19135]  INFO -- : [85f489db-d006-4f27-b351-2c2ef06c0625]   Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2104)
+I, [2023-03-14T13:07:12.411260 #19135]  INFO -- : [85f489db-d006-4f27-b351-2c2ef06c0625] Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 3443)
+I, [2023-03-14T13:07:12.443559 #19135]  INFO -- : [f6329bea-e694-4908-bbf2-733573bce891] Started GET "/assets/styles-73c136cb72a33ee994a2dfc73dae75710f0064c1b83754d2f70552647a39ec97.css" for 127.0.0.1 at 2023-03-14 13:07:12 +0530
+I, [2023-03-14T13:07:12.457675 #19135]  INFO -- : [229c529b-e430-4747-baf0-b73ad56b14a1] Started GET "/assets/application-6868713675c1621745555733b398a9765cdfe3820d4893477a7738b64d5f94b7.js" for 127.0.0.1 at 2023-03-14 13:07:12 +0530
+I, [2023-03-14T13:07:12.458524 #19135]  INFO -- : [d1fb5675-6aeb-4885-b11f-9edefce27ce1] Started GET "/assets/youngdumb-95ceb8d789a691090d269bffa623876b8fa8889c7ee53f51c3947b8d8d134bc3.png" for 127.0.0.1 at 2023-03-14 13:07:12 +0530
+I, [2023-03-14T13:07:16.064476 #19135]  INFO -- : [3c5dace2-ca5a-4903-a5e0-40b90d25d1ef] Started GET "/" for 127.0.0.1 at 2023-03-14 13:07:16 +0530
+I, [2023-03-14T13:07:16.065579 #19135]  INFO -- : [3c5dace2-ca5a-4903-a5e0-40b90d25d1ef] Processing by PagesController#home as HTML
+I, [2023-03-14T13:07:16.066552 #19135]  INFO -- : [3c5dace2-ca5a-4903-a5e0-40b90d25d1ef]   Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 246)
+I, [2023-03-14T13:07:16.067096 #19135]  INFO -- : [3c5dace2-ca5a-4903-a5e0-40b90d25d1ef]   Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 751)
+I, [2023-03-14T13:07:16.067227 #19135]  INFO -- : [3c5dace2-ca5a-4903-a5e0-40b90d25d1ef] Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 1034)
