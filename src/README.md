@@ -1,24 +1,39 @@
-# README
+# Employee Management App
+This is a Ruby on Rails based web application for managing employee data.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+Before you can deploy the Employee Management App, you need to make sure that you have the following dependencies installed on your machine:
 
-* Ruby version
+- Ruby (version 2.6 or higher)
+- Ruby on Rails (version 6.1 or higher)
+- Mysql or Mariadb
 
-* System dependencies
+Clone the repository to your local machine.
+```bash
+git clone https://github.com/Utkar5hM/Employee-Management-App.git
+```
 
-* Configuration
+Configure database settings at `config/database.yml`.
 
-* Database creation
+Install the necessary gems by running the following command in the terminal.
+```bash
+bundle install
+```
+Precompile the assets using the following command.
+```bash
+bundle exec rails assets:precompile
+```
+Migrate the database using the following command.
+```bash
+bundle exec rails db:migrate
+```
+Start the server using the following command.
+```bash
+bundle exec rails s -p 3000 -b '0.0.0.0'
+```
 
-* Database initialization
+## Usage
 
-* How to run the test suite
+After starting the server, you can access the web application by visiting http://localhost:3000 in your web browser.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
