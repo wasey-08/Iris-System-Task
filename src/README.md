@@ -5,8 +5,7 @@ This is a Ruby on Rails based web application for managing employee data.
 
 Before you can deploy the Employee Management App, you need to make sure that you have the following dependencies installed on your machine:
 
-- Ruby (version 2.6 or higher)
-- Ruby on Rails (version 6.1 or higher)
+- Ruby (3.0.5)
 - Mysql or Mariadb
 
 Clone the repository to your local machine.
