@@ -102,6 +102,61 @@ Task-5 ( Enable persistence for the DB data and Nginx config files so that they 
 
 [ screenshot of step-3,4 ](./images/5.png "screenshot-8")
 
+Task-6 ( Use docker-compose to easily bring these containers up together with a single command. )
+
+      Steps;
+      
+      1) Create a docker-compose.yml file which include the below script;
+      
+      version: '2.3'
+
+      services:
+      db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+    volumes:
+      - employee-management-app-db-data:/var/lib/postgresql/data
+    networks:
+      employee-management-app-network:
+
+      app:
+    build: .
+    restart: always
+    environment:
+      DATABASE_URL: postgres://postgres:root@db:5432/employee_management_app
+    depends_on:
+      - db
+    networks:
+      employee-management-app-network:
+
+      nginx:
+    image: employee-management-app-nginx
+    restart: always
+    volumes:
+      - employee-management-app-nginx-config:/etc/nginx
+    ports:
+      - '8080:80'
+    depends_on:
+      - app
+    networks:
+      employee-management-app-network:
+
+      volumes:
+      employee-management-app-db-data:
+      employee-management-app-nginx-config:
+
+      networks:
+      employee-management-app-network:
+      
+    NOTE : This docker-compose.yml file defines three services: db, app, and nginx. The db service uses the postgres image and mounts the employee-management-app-db-data volume to persist the DB data. The app service builds the application image and sets the DATABASE_URL environment variable to connect to the PostgreSQL database. The nginx service uses the employee-management-app-nginx image and mounts the employee-management-app-nginx-config volume to persist the Nginx config files. It also exposes port 8080 on the host machine to access the application.
+    
+    2) start the containers
+    
+[ screenshot of step-1,2 ](./images/6.png "screenshot-9")
+[ screenshot of build ](./images/8.png "screenshot-10")
+
 
       
       
