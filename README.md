@@ -2,7 +2,7 @@
 
 Task-1 ( Pack the rails application in a docker container image. )
 
-steps;
+      Steps;
 
       1) Create a Dockerfile
 
@@ -16,7 +16,7 @@ steps;
 
 Task-2 (Launch the application in a docker container. Launch a separate container for the database and ensure that the two containers are able to connect.)
 
-steps;
+      Steps;
 
       1) Create a Docker network; ( employee-management-app-network )
       
@@ -29,6 +29,42 @@ steps;
 [ screenshot of step-1 & step-2 ](./images/2.png "screenshot-2")
 
 [ screenshot of step-3 ](./images/3.png "screenshot-3")
+
+Task-3 ( Launch an Nginx container, and configure it as a reverse proxy to the rails application.)
+
+      Steps;
       
-      
+      1) Create a Dockerfile for Nginx; (Dockerfile.nginx)
+            
+            #add :: FROM nginx:latest
+                    COPY nginx.conf /etc/nginx/nginx.conf
+                    
+      2) Create an Nginx configuration file; (nginx.conf)
+            
+            #add :: worker_processes 1;
+
+                    events { worker_connections 1024; }
+
+                     http {
+                         upstream employee-management-app {
+                         server employee-management-app:3000;
+                         }
+
+                         server {
+                             listen 80;
+                              server_name localhost;
+
+                             location / {
+                                 proxy_pass http://employee-management-app;
+                                 proxy_set_header Host $host;
+                                 proxy_set_header X-Real-IP $remote_addr;
+                                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                                 proxy_set_header X-Forwarded-Proto $scheme;
+                              }
+                         }
+                    }
+                    
+    NOTE : This configuration file sets up an upstream server pointing to the Rails application container and configures Nginx to act as a reverse proxy.
+
+[ screenshot of step-1,2 ](./images/3.png "screenshot-4")      
 
