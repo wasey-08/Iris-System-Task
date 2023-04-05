@@ -155,6 +155,7 @@ Task-6 ( Use docker-compose to easily bring these containers up together with a 
     2) start the containers
     
 [ screenshot of step-1,2 ](./images/6.png "screenshot-9")
+
 [ screenshot of build ](./images/8.png "screenshot-10")
 
 Task-7 ( Add requests rate limit to Nginx to limit the number of HTTP requests to the application in a given period of time. )
