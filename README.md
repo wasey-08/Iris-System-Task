@@ -66,5 +66,18 @@ Task-3 ( Launch an Nginx container, and configure it as a reverse proxy to the r
                     
     NOTE : This configuration file sets up an upstream server pointing to the Rails application container and configures Nginx to act as a reverse proxy.
 
-[ screenshot of step-1,2 ](./images/3.png "screenshot-4")      
+[ screenshot of step-1,2 ](./images/3.png "screenshot-4")   
 
+Task-4 (launch two more containers of the rails application. All three containers should be able to connect to a single database container.)
+
+      Steps;
+      
+      1) Create three Docker containers for the Rails application; ( Three Docker containers named employee-management-app-1,2,3 and by using the employee-management-app image and joining them to the employee-management-app-network network. They will also set the DATABASE_URL environment variable to connect to the Postgres database.)
+      
+      2) Build the Docker image for Nginx using the following command in the terminal; ( " docker build -t employee-management-app-nginx -f Dockerfile.nginx . " )
+      
+      3) Launch the Nginx container; (" docker run --name employee-management-app-nginx --network employee-management-app-network -p 8080:80 -v $(pwd)/nginx.conf:/etc/nginx/nginx.conf -d employee-management-app-nginx ")
+
+[ screenshot of step-1,2 ](./images/3.png "screenshot-5")
+
+[ screenshot of step-3 ](./images/4.png "screenshot-6")
