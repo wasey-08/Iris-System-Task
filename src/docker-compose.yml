@@ -1,0 +1,42 @@
+version: '2.3'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+    volumes:
+      - employee-management-app-db-data:/var/lib/postgresql/data
+    networks:
+      employee-management-app-network:
+
+  app:
+    build: .
+    restart: always
+    environment:
+      DATABASE_URL: postgres://postgres:root@db:5432/employee_management_app
+    depends_on:
+      - db
+    networks:
+      employee-management-app-network:
+
+  nginx:
+    image: employee-management-app-nginx
+    restart: always
+    volumes:
+      - employee-management-app-nginx-config:/etc/nginx
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - '8080:80'
+    depends_on:
+      - app
+    networks:
+      employee-management-app-network:
+
+volumes:
+  employee-management-app-db-data:
+  employee-management-app-nginx-config:
+
+networks:
+  employee-management-app-network:
