@@ -81,3 +81,27 @@ Task-4 ( Launch two more containers of the rails application. All three containe
 [ screenshot of step-1,2 ](./images/3.png "screenshot-5")
 
 [ screenshot of step-3 ](./images/4.png "screenshot-6")
+
+Task-5 ( Enable persistence for the DB data and Nginx config files so that they are available even when the containers go down. )
+
+      Steps;
+      
+      1) Create a volume for the DB data; ( create a Docker volume named employee-management-app-db-data that will be used to store the DB data. )
+      
+      2) Modify the DB container to use the volume & launch a new DB container using the volume
+      
+      NOTE : A new DB container named employee-management-app-db using the postgres image and join it to the employee-management-app-network network. It will also mount the employee-management-app-db-data volume to the container's /var/lib/postgresql/data directory, so that the DB data is persisted even if the container is deleted.
+      
+      3) Create a volume for the Nginx config files; ( create a Docker volume named employee-management-app-nginx-config that will be used to store the Nginx config files. )
+      
+      4) Modify the Nginx container to use the volume & launch a new Nginx container using the volume
+      
+      NOTE : launch a new Nginx container named employee-management-app-nginx using the employee-management-app-nginx image, join it to the employee-management-app-network network, and expose port 8080 on the host machine. It will also mount the employee-management-app-nginx-config volume to the container's /etc/nginx directory, so that the Nginx config files are persisted even if the container is deleted.
+
+[ screenshot of step-1,2 ](./images/4.png "screenshot-7")
+
+[ screenshot of step-3,4 ](./images/5.png "screenshot-8")
+
+
+      
+      
