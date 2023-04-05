@@ -157,6 +157,31 @@ Task-6 ( Use docker-compose to easily bring these containers up together with a 
 [ screenshot of step-1,2 ](./images/6.png "screenshot-9")
 [ screenshot of build ](./images/8.png "screenshot-10")
 
+Task-7 ( Add requests rate limit to Nginx to limit the number of HTTP requests to the application in a given period of time. )
+
+      Steps;
+      
+      1) Add request rate limiting to Nginx by using the ngx_http_limit_req_module
+      
+      2) Add below lines to the nginx.conf
+      
+      http {
+      limit_req_zone $binary_remote_addr zone=mylimit:10m rate=10r/s;
+
+      server {
+    listen 80;
+    server_name localhost;
+
+    location / {
+      limit_req zone=mylimit burst=20 nodelay;
+      proxy_pass http://app:3000;
+                  }
+            }
+      }
+      
+    3) Include this nginx.conf file in Docker image and reference it in docker-compose.yml file
+
+
 
       
       
