@@ -68,7 +68,7 @@ Task-3 ( Launch an Nginx container, and configure it as a reverse proxy to the r
 
 [ screenshot of step-1,2 ](./images/3.png "screenshot-4")   
 
-Task-4 (launch two more containers of the rails application. All three containers should be able to connect to a single database container.)
+Task-4 ( Launch two more containers of the rails application. All three containers should be able to connect to a single database container.)
 
       Steps;
       
