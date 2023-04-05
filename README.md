@@ -1,6 +1,6 @@
 # Iris-System-Tasks
 
-Task-1
+Task-1 ( Pack the rails application in a docker container image. )
 
 steps;
 
